@@ -16,6 +16,7 @@ type ScamOMaticProps = {
 
 type SymbolType = 'HOUSE' | 'THEFT' | 'PAWN' | 'LOAN' | 'SCAM' | 'DEBT' | 'L' | 'O' | 'S' | 'E' | 'R' | '!';
 const MAX_BET_PER_LINE = 1000;
+const MAX_BET_PERCENT = 100;
 const SPIN_LIMIT = 10;
 const HOUSE_EDGE_RATE = 0.15;
 
@@ -169,6 +170,8 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
   const [sessionStartCredits, setSessionStartCredits] = useState(0);
   const [credits, setCredits] = useState(0);
   const [betPerLine, setBetPerLine] = useState(1);
+  const [betMode, setBetMode] = useState<'flat' | 'bankroll'>('bankroll');
+  const [betPercent, setBetPercent] = useState(2);
   const [lines, setLines] = useState(9);
   const [winAmount, setWinAmount] = useState(0);
   const [winningLines, setWinningLines] = useState<WinLine[]>([]);
@@ -237,6 +240,8 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
     setSessionStartCredits(bankroll);
     setCredits(bankroll);
     setBetPerLine(1);
+    setBetMode('bankroll');
+    setBetPercent(2);
     setLines(9);
     setWinAmount(0);
     setWinningLines([]);
@@ -251,6 +256,11 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
     setGrid(freshGrid);
     setDisplayGrid(freshGrid);
   }, []);
+
+  const effectiveBetPerLine = betMode === 'bankroll'
+    ? Math.max(1, Math.min(MAX_BET_PER_LINE, Math.floor((credits * (betPercent / 100)) / Math.max(1, lines))))
+    : betPerLine;
+  const totalBet = effectiveBetPerLine * lines;
 
   useEffect(() => {
     if (autoFreeSpins && freeSpins > 0 && !isSpinning && winAmount === 0 && !gambleModalOpen && spinsUsed < SPIN_LIMIT) {
@@ -278,8 +288,12 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
       setShowGamble(false);
     }
 
-    const totalBet = betPerLine * lines;
-    if (currentCredits < totalBet && freeSpins === 0) {
+    const spinBetPerLine = betMode === 'bankroll'
+      ? Math.max(1, Math.min(MAX_BET_PER_LINE, Math.floor((currentCredits * (betPercent / 100)) / Math.max(1, lines))))
+      : betPerLine;
+    const spinTotalBet = spinBetPerLine * lines;
+
+    if (currentCredits < spinTotalBet && freeSpins === 0) {
       alert('Not enough credits!');
       return;
     }
@@ -288,7 +302,7 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
     setWinningLines([]);
 
     if (freeSpins === 0) {
-      setCredits(currentCredits - totalBet);
+      setCredits(currentCredits - spinTotalBet);
     } else {
       setFreeSpins((fs) => fs - 1);
     }
@@ -324,7 +338,7 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
     // Ensure displayed symbols always match the calculated payout grid.
     setDisplayGrid(newGrid);
 
-    const { wins, totalWin, loserSpins } = calculateWins(newGrid, betPerLine, lines);
+    const { wins, totalWin, loserSpins } = calculateWins(newGrid, spinBetPerLine, lines);
 
     if (totalWin > 0) {
       const grossWin = freeSpins > 0 ? totalWin * 3 : totalWin;
@@ -409,7 +423,7 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
     setSessionApplied(true);
     const finalCredits = credits + winAmount;
     const delta = Math.floor(finalCredits - sessionStartCredits);
-    const baseBet = Math.max(1, Math.floor(betPerLine * lines));
+    const baseBet = Math.max(1, Math.floor(totalBet));
     onFinish({
       resource: 'money',
       bet: baseBet,
@@ -420,7 +434,7 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
   };
 
   return (
-    <div className="w-full bg-zinc-900 text-white font-sans p-2 md:p-4 max-h-[74vh] overflow-y-auto">
+    <div className="w-full bg-zinc-900 text-white font-sans p-2 md:p-4 max-h-[calc(100vh-14rem)] overflow-y-auto">
       <div className="bg-zinc-800 p-4 md:p-5 rounded-3xl shadow-2xl border-4 border-zinc-700 max-w-5xl w-full mx-auto">
         <div className="text-center mb-6 relative">
           <h1 className="text-3xl md:text-5xl font-black text-red-500 tracking-widest uppercase drop-shadow-[0_0_10px_rgba(239,68,68,0.8)]">
@@ -457,10 +471,11 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
               </button>
             </div>
           )}
-          <div className="mt-2">
+          <div className="mt-2 space-y-1">
             <span className={`text-sm font-bold ${spinsUsed >= SPIN_LIMIT ? 'text-rose-300' : 'text-slate-300'}`}>
               Spins: {spinsUsed}/{SPIN_LIMIT}
             </span>
+            <p className="text-xs text-zinc-400">Layout auto-scales to your window. Resize safely.</p>
           </div>
         </div>
 
@@ -515,7 +530,7 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
           </div>
           <div className="bg-black p-4 rounded-xl border-2 border-blue-900 shadow-[0_0_15px_rgba(59,130,246,0.2)]">
             <div className="text-zinc-400 text-sm mb-1 font-bold tracking-widest">BET</div>
-            <div className="text-3xl md:text-5xl text-blue-400 font-black drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]">${(betPerLine * lines).toFixed(2)}</div>
+            <div className="text-3xl md:text-5xl text-blue-400 font-black drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]">${totalBet.toFixed(2)}</div>
           </div>
           <div className="bg-black p-4 rounded-xl border-2 border-yellow-900 shadow-[0_0_15px_rgba(234,179,8,0.2)]">
             <div className="text-zinc-400 text-sm mb-1 font-bold tracking-widest">WIN</div>
@@ -538,30 +553,82 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
               </div>
             </div>
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center min-w-[220px]">
               <span className="text-xs text-zinc-400 mb-1">BET/LINE</span>
+              <div className="mb-1 flex rounded-md bg-zinc-800 p-0.5 text-[10px]">
+                <button
+                  onClick={() => setBetMode('flat')}
+                  disabled={isSpinning || spinsUsed >= SPIN_LIMIT}
+                  className={`rounded px-2 py-1 ${betMode === 'flat' ? 'bg-blue-600 text-white' : 'text-zinc-300'} disabled:opacity-50`}
+                >
+                  Flat
+                </button>
+                <button
+                  onClick={() => setBetMode('bankroll')}
+                  disabled={isSpinning || spinsUsed >= SPIN_LIMIT}
+                  className={`rounded px-2 py-1 ${betMode === 'bankroll' ? 'bg-blue-600 text-white' : 'text-zinc-300'} disabled:opacity-50`}
+                >
+                  % Bankroll
+                </button>
+              </div>
               <div className="flex items-center gap-2 bg-black rounded-lg p-1">
-                <button onClick={() => setBetPerLine((b) => Math.max(1, b - (b > 100 ? 50 : b > 20 ? 10 : 1)))} disabled={isSpinning || spinsUsed >= SPIN_LIMIT} className="p-2 bg-zinc-800 rounded hover:bg-zinc-700 disabled:opacity-50"><Minus size={16} /></button>
-                <span className="w-8 text-center font-bold">{betPerLine}</span>
-                <button onClick={() => setBetPerLine((b) => Math.min(MAX_BET_PER_LINE, b + (b >= 100 ? 50 : b >= 20 ? 10 : 1)))} disabled={isSpinning || spinsUsed >= SPIN_LIMIT} className="p-2 bg-zinc-800 rounded hover:bg-zinc-700 disabled:opacity-50"><Plus size={16} /></button>
+                <button
+                  onClick={() => {
+                    if (betMode === 'bankroll') {
+                      setBetPercent((b) => Math.max(0.5, b - (b > 10 ? 5 : b > 5 ? 1 : 0.5)));
+                    } else {
+                      setBetPerLine((b) => Math.max(1, b - (b > 100 ? 50 : b > 20 ? 10 : 1)));
+                    }
+                  }}
+                  disabled={isSpinning || spinsUsed >= SPIN_LIMIT}
+                  className="p-2 bg-zinc-800 rounded hover:bg-zinc-700 disabled:opacity-50"
+                ><Minus size={16} /></button>
+                <span className="w-24 text-center font-bold">
+                  {betMode === 'bankroll' ? `${betPercent.toFixed(betPercent < 1 ? 1 : 0)}%` : `$${betPerLine}`}
+                </span>
+                <button
+                  onClick={() => {
+                    if (betMode === 'bankroll') {
+                      setBetPercent((b) => Math.min(MAX_BET_PERCENT, b + (b >= 10 ? 5 : b >= 5 ? 1 : 0.5)));
+                    } else {
+                      setBetPerLine((b) => Math.min(MAX_BET_PER_LINE, b + (b >= 100 ? 50 : b >= 20 ? 10 : 1)));
+                    }
+                  }}
+                  disabled={isSpinning || spinsUsed >= SPIN_LIMIT}
+                  className="p-2 bg-zinc-800 rounded hover:bg-zinc-700 disabled:opacity-50"
+                ><Plus size={16} /></button>
               </div>
               <div className="mt-1 flex gap-1">
-                {[10, 100, 500, 1000].map((value) => (
+                {(betMode === 'bankroll' ? [0.5, 1, 2, 5, 10, 25] : [10, 100, 500, 1000]).map((value) => (
                   <button
                     key={`quick-bet-${value}`}
-                    onClick={() => setBetPerLine(value)}
+                    onClick={() => {
+                      if (betMode === 'bankroll') {
+                        setBetPercent(value);
+                      } else {
+                        setBetPerLine(value);
+                      }
+                    }}
                     disabled={isSpinning || spinsUsed >= SPIN_LIMIT}
-                    className={`rounded px-1.5 py-0.5 text-[10px] ${betPerLine === value ? 'bg-blue-600 text-white' : 'bg-zinc-700 text-zinc-200'} disabled:opacity-50`}
+                    className={`rounded px-1.5 py-0.5 text-[10px] ${(betMode === 'bankroll' ? betPercent === value : betPerLine === value) ? 'bg-blue-600 text-white' : 'bg-zinc-700 text-zinc-200'} disabled:opacity-50`}
                   >
-                    {value}
+                    {betMode === 'bankroll' ? `${value}%` : value}
                   </button>
                 ))}
               </div>
+              <span className="mt-1 text-[11px] text-zinc-400">Effective: ${effectiveBetPerLine.toFixed(0)} / line</span>
             </div>
 
             <div className="flex flex-col items-center justify-center">
               <button
-                onClick={() => { setLines(9); setBetPerLine(MAX_BET_PER_LINE); }}
+                onClick={() => {
+                  setLines(9);
+                  if (betMode === 'bankroll') {
+                    setBetPercent(MAX_BET_PERCENT);
+                  } else {
+                    setBetPerLine(MAX_BET_PER_LINE);
+                  }
+                }}
                 disabled={isSpinning || spinsUsed >= SPIN_LIMIT}
                 className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg disabled:opacity-50 h-full"
               >
@@ -590,7 +657,7 @@ export default function ScamOMatic({ money, onFinish }: ScamOMaticProps) {
 
             <button
               onClick={() => { void spin(); }}
-              disabled={isSpinning || spinsUsed >= SPIN_LIMIT || ((credits < (betPerLine * lines)) && freeSpins === 0)}
+              disabled={isSpinning || spinsUsed >= SPIN_LIMIT || ((credits < totalBet) && freeSpins === 0)}
               className={`
                 px-8 py-4 rounded-xl font-black text-2xl tracking-wider transition-all
                 ${isSpinning
