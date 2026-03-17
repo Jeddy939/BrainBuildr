@@ -11,6 +11,13 @@ export const HARDWARE_REAL_ESTATE_FOOTPRINT: Record<'processor' | 'cooling' | 'p
 
 export const NETWORK_REAL_ESTATE_FOOTPRINT = 0.45;
 const LEGACY_NEUROLINK_HARDWARE_IDS = new Set(['silicon_cortex', 'cranial_vents', 'hypothalamic_cryoloop', 'skull_battery_pack']);
+const NEUROLINK_BOOTSTRAP_COMPUTE_PER_SEC = 40;
+const NEUROLINK_SUPPORT_PER_SEC = {
+  vents: 6,
+  cryoloop: 14,
+  battery: 10
+};
+const ANTITRUST_COOLDOWN_SEC = 180;
 
 const hasDatacenterHardware = (hardware: GameState['hardware']) =>
   hardware.some((item) => item.type === 'processor' && !LEGACY_NEUROLINK_HARDWARE_IDS.has(item.id) && item.count > 0);
@@ -36,7 +43,7 @@ export type DigitalMetrics = {
 export const getDigitalMetrics = (hardware: GameState['hardware'], network: GameState['network'], computeMultiplier: number): DigitalMetrics => {
   const basePowerReserve = 2.4;
   const baseCoolingReserve = 0.85;
-  const basePowerDemand = 1.1;
+  const basePowerDemand = 3.2;
   const baseHeatOutput = 0.55;
 
   const processorThroughput = hardware
@@ -243,7 +250,7 @@ export const getThermalFlow = (state: GameState, now = Date.now()): ThermalFlow 
   const isNeuroLinkPhase = state.phase === GamePhase.NeuroLink;
   const megacorpDatacentersOnline = isMegacorpPhase && hasDatacenterHardware(state.hardware);
   const megacorpHeatProfileActive = isMegacorpPhase && megacorpDatacentersOnline;
-  const waterSystemsActive = state.phase !== GamePhase.NeuroLink && megacorpHeatProfileActive;
+  const waterSystemsActive = state.phase !== GamePhase.NeuroLink && (megacorpHeatProfileActive || isMegacorpPhase);
   const metrics = getDigitalMetrics(state.hardware, state.network, state.computeMultiplier);
   const infrastructureFootprint = getInfrastructureFootprint(state.hardware, state.network);
   const opsTotalsRaw = MATTER_OPERATIONS.reduce(
@@ -283,11 +290,11 @@ export const getThermalFlow = (state: GameState, now = Date.now()): ThermalFlow 
     ? clamp(state.water / Math.max(1, nextWaterCapacity * 0.18), 0.28, 1.08)
     : 1;
 
-  const heatGenFactor = megacorpHeatProfileActive ? 1.08 : isNeuroLinkPhase ? 1.04 : 1.16;
-  const shortageHeatFactor = megacorpHeatProfileActive ? 0.24 : isNeuroLinkPhase ? 0.18 : 0.3;
-  const opsHeatFactor = megacorpHeatProfileActive ? 0.72 : isNeuroLinkPhase ? 0.6 : 0.85;
-  const coolingDissipationFactor = megacorpHeatProfileActive ? 2.05 : isNeuroLinkPhase ? 2.3 : 1.75;
-  const passiveCooling = megacorpHeatProfileActive ? 0.85 : isNeuroLinkPhase ? 1.05 : 0.55;
+  const heatGenFactor = megacorpHeatProfileActive ? 1.08 : isMegacorpPhase ? 1.12 : isNeuroLinkPhase ? 1.04 : 1.16;
+  const shortageHeatFactor = megacorpHeatProfileActive ? 0.24 : isMegacorpPhase ? 0.26 : isNeuroLinkPhase ? 0.18 : 0.3;
+  const opsHeatFactor = megacorpHeatProfileActive ? 0.72 : isMegacorpPhase ? 0.76 : isNeuroLinkPhase ? 0.6 : 0.85;
+  const coolingDissipationFactor = megacorpHeatProfileActive ? 2.05 : isMegacorpPhase ? 1.58 : isNeuroLinkPhase ? 2.3 : 1.75;
+  const passiveCooling = megacorpHeatProfileActive ? 0.85 : isMegacorpPhase ? 0.45 : isNeuroLinkPhase ? 1.05 : 0.55;
   const datacenterHeat = state.hardware
     .filter((item) => item.type === 'processor' && !LEGACY_NEUROLINK_HARDWARE_IDS.has(item.id))
     .reduce((sum, item) => sum + (item.heatGen * item.count), 0);
@@ -334,7 +341,7 @@ export const simulateCyborgPhaseTick = (prev: GameState, now: number, tickRate: 
 
   const metrics = getDigitalMetrics(prev.hardware, prev.network, prev.computeMultiplier);
   const infrastructureFootprint = getInfrastructureFootprint(prev.hardware, prev.network);
-  const waterSystemsActive = prev.phase !== GamePhase.NeuroLink && megacorpHeatProfileActive;
+  const waterSystemsActive = prev.phase !== GamePhase.NeuroLink && (megacorpHeatProfileActive || isMegacorpPhase);
   const neuroLinkElapsedMs = isNeuroLinkPhase
     ? Math.max(0, now - (prev.neuroLinkStartedAt || now))
     : 180000;
@@ -387,13 +394,13 @@ export const simulateCyborgPhaseTick = (prev: GameState, now: number, tickRate: 
     ? clamp(nextWater / Math.max(1, nextWaterCapacity * 0.18), 0.28, 1.08)
     : 1;
 
-  const coolingCapacityFactor = megacorpHeatProfileActive ? 7.2 : isNeuroLinkPhase ? 6.8 : 6.2;
-  const powerCapacityFactor = megacorpHeatProfileActive ? 1.35 : 1.25;
-  const heatGenFactor = megacorpHeatProfileActive ? 1.08 : isNeuroLinkPhase ? 1.04 : 1.16;
-  const shortageHeatFactor = megacorpHeatProfileActive ? 0.24 : isNeuroLinkPhase ? 0.18 : 0.3;
-  const opsHeatFactor = megacorpHeatProfileActive ? 0.72 : isNeuroLinkPhase ? 0.6 : 0.85;
-  const coolingDissipationFactor = megacorpHeatProfileActive ? 2.05 : isNeuroLinkPhase ? 2.3 : 1.75;
-  const passiveCooling = megacorpHeatProfileActive ? 0.85 : isNeuroLinkPhase ? 1.05 : 0.55;
+  const coolingCapacityFactor = megacorpHeatProfileActive ? 7.2 : isMegacorpPhase ? 6.9 : isNeuroLinkPhase ? 6.8 : 6.2;
+  const powerCapacityFactor = megacorpHeatProfileActive ? 1.35 : isMegacorpPhase ? 1.3 : 1.25;
+  const heatGenFactor = megacorpHeatProfileActive ? 1.08 : isMegacorpPhase ? 1.12 : isNeuroLinkPhase ? 1.04 : 1.16;
+  const shortageHeatFactor = megacorpHeatProfileActive ? 0.24 : isMegacorpPhase ? 0.26 : isNeuroLinkPhase ? 0.18 : 0.3;
+  const opsHeatFactor = megacorpHeatProfileActive ? 0.72 : isMegacorpPhase ? 0.76 : isNeuroLinkPhase ? 0.6 : 0.85;
+  const coolingDissipationFactor = megacorpHeatProfileActive ? 2.05 : isMegacorpPhase ? 1.58 : isNeuroLinkPhase ? 2.3 : 1.75;
+  const passiveCooling = megacorpHeatProfileActive ? 0.85 : isMegacorpPhase ? 0.45 : isNeuroLinkPhase ? 1.05 : 0.55;
   const datacenterHeat = prev.hardware
     .filter((item) => item.type === 'processor' && !LEGACY_NEUROLINK_HARDWARE_IDS.has(item.id))
     .reduce((sum, item) => sum + (item.heatGen * item.count), 0);
@@ -422,9 +429,9 @@ export const simulateCyborgPhaseTick = (prev: GameState, now: number, tickRate: 
   const ventCount = prev.hardware.find((item) => item.id === 'cranial_vents')?.count || 0;
   const cryoloopCount = prev.hardware.find((item) => item.id === 'hypothalamic_cryoloop')?.count || 0;
   const batteryCount = prev.hardware.find((item) => item.id === 'skull_battery_pack')?.count || 0;
-  const neurolinkBootstrapComputePerSec = isNeuroLinkPhase ? 55 : 0;
+  const neurolinkBootstrapComputePerSec = isNeuroLinkPhase ? NEUROLINK_BOOTSTRAP_COMPUTE_PER_SEC : 0;
   const neurolinkSupportComputePerSec = isNeuroLinkPhase
-    ? ((ventCount * 10) + (cryoloopCount * 24) + (batteryCount * 16))
+    ? ((ventCount * NEUROLINK_SUPPORT_PER_SEC.vents) + (cryoloopCount * NEUROLINK_SUPPORT_PER_SEC.cryoloop) + (batteryCount * NEUROLINK_SUPPORT_PER_SEC.battery))
     : 0;
   const effectiveThroughputPerSec = (metrics.throughputPerSec + neurolinkBootstrapComputePerSec + neurolinkSupportComputePerSec) * thermalThrottle;
   let passiveGain = effectiveThroughputPerSec / (1000 / tickRate);
@@ -465,7 +472,7 @@ export const simulateCyborgPhaseTick = (prev: GameState, now: number, tickRate: 
     const scandalActive = (prev.activeDistractions.celebrity_scandal || 0) > 0;
     const decayedPrPerSec =
       0.025
-      + (infrastructureFootprint * 0.001)
+      + (infrastructureFootprint * 0.00072)
       + (Math.max(0, heatGeneratedPerSec - heatDissipatedPerSec) * 0.018);
     const campaignShield = clamp(prev.dissonanceCampaigns * 0.06, 0, 0.72);
     nextPrLevel = clamp(prev.prLevel - (decayedPrPerSec * (1 - campaignShield) * dt), 0, 100);
@@ -522,7 +529,7 @@ export const simulateCyborgPhaseTick = (prev: GameState, now: number, tickRate: 
 
     if (!antitrustActive && nextGlobalAnxiety >= 100) {
       antitrustTriggered = true;
-      nextAntitrustCooldown = 0;
+      nextAntitrustCooldown = ANTITRUST_COOLDOWN_SEC;
       nextSenateBaffleProgress = 0;
     }
   }
