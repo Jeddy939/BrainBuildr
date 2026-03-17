@@ -1459,7 +1459,7 @@ export default function App() {
     const cryoloopCount = state.hardware.find((item) => item.id === 'hypothalamic_cryoloop')?.count || 0;
     const batteryCount = state.hardware.find((item) => item.id === 'skull_battery_pack')?.count || 0;
     const neurolinkSupportPerSec = state.phase === GamePhase.NeuroLink
-      ? (55 + (ventCount * 10) + (cryoloopCount * 24) + (batteryCount * 16))
+      ? (40 + (ventCount * 6) + (cryoloopCount * 14) + (batteryCount * 10))
       : 0;
     return (digitalMetrics.throughputPerSec + neurolinkSupportPerSec) * localHeatThrottle;
   }, [state.isCyborg, state.hardware, state.phase, state.heat, state.heatCapacity, digitalMetrics.throughputPerSec]);
@@ -1495,12 +1495,8 @@ export default function App() {
   const isDigitalBrainPhase = state.isCyborg && state.phase === GamePhase.NeuroLink;
   const isMegacorpPhase = state.isCyborg && state.phase === GamePhase.Megacorp;
   const isSpacePhase = state.isCyborg && (state.phase === GamePhase.Space || state.phase === GamePhase.Rival);
-  const megacorpDatacenterOnline = state.isCyborg
-    && state.phase === GamePhase.Megacorp
-    && state.hardware.some((item) => item.type === 'processor' && !NEUROLINK_CORE_HARDWARE_IDS.has(item.id) && item.count > 0);
   const showWaterSystems = state.isCyborg
-    && state.phase !== GamePhase.NeuroLink
-    && (state.phase !== GamePhase.Megacorp || megacorpDatacenterOnline);
+    && state.phase !== GamePhase.NeuroLink;
   const showMatterSystems = state.isCyborg && state.phase !== GamePhase.NeuroLink;
   const thermalFlow = useMemo(
     () => (state.isCyborg ? getThermalFlow(state) : null),
@@ -3244,7 +3240,7 @@ export default function App() {
       const cost = getRealEstateCost(prev.realEstate, purchasable);
       if (prev.money < cost) return prev;
       const scandalActive = (prev.activeDistractions[CELEBRITY_SCANDAL_ID] || 0) > 0;
-      const anxietyPerAcre = scandalActive ? 0.044 : 0.22;
+      const anxietyPerAcre = scandalActive ? 0.035 : 0.16;
       return {
         ...prev,
         money: prev.money - cost,
@@ -6388,4 +6384,3 @@ export default function App() {
     </div>
   );
 }
-
