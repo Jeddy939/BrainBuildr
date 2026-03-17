@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": "psychology_qcaa",
+    "name": "QCAA Psychology",
+    "description": "Senior Psychology-aligned bank with unit/topic structure.",
+    "file": "/questions/psychology_qcaa.json"
+  },
+  {
+    "id": "general_knowledge",
+    "name": "General Knowledge",
+    "description": "High-school essentials + cool trivia for non-psychology classes.",
+    "file": "/questions/general_knowledge.json"
+  }
+]

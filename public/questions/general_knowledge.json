@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "gk_sci_01",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-01",
+    "text": "What gas do humans need to breathe to survive?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Humans require oxygen for cellular respiration."
+  },
+  {
+    "id": "gk_sci_02",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-02",
+    "text": "Which blood vessels carry blood away from the heart?",
+    "options": [
+      "Veins",
+      "Arteries",
+      "Capillaries",
+      "Lymph vessels"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Arteries carry blood away from the heart."
+  },
+  {
+    "id": "gk_sci_03",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-03",
+    "text": "A vaccine primarily helps the body by:",
+    "options": [
+      "Killing all bacteria instantly",
+      "Training the immune system to recognize pathogens",
+      "Replacing red blood cells",
+      "Lowering body temperature"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Vaccines prepare immune memory so future infections are fought faster."
+  },
+  {
+    "id": "gk_sci_04",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-04",
+    "text": "What is the pH of a neutral solution at room temperature?",
+    "options": [
+      "0",
+      "5",
+      "7",
+      "14"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "A neutral solution has pH 7."
+  },
+  {
+    "id": "gk_sci_05",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-05",
+    "text": "Which organ is primarily responsible for filtering blood to produce urine?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Pancreas",
+      "Spleen"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Kidneys filter blood and regulate fluid balance."
+  },
+  {
+    "id": "gk_sci_06",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-06",
+    "text": "What is acceleration due to gravity on Earth approximately?",
+    "options": [
+      "9.8 m/s^2",
+      "3.0 m/s^2",
+      "15.2 m/s^2",
+      "1.6 m/s^2"
+    ],
+    "correctIndex": 0,
+    "era": 1,
+    "explanation": "Earth's gravitational acceleration is about 9.8 m/s^2."
+  },
+  {
+    "id": "gk_sci_07",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-07",
+    "text": "In chemistry, an atom is electrically neutral when:",
+    "options": [
+      "Protons equal electrons",
+      "Neutrons equal protons",
+      "Electrons exceed neutrons",
+      "It has no nucleus"
+    ],
+    "correctIndex": 0,
+    "era": 1,
+    "explanation": "Equal protons and electrons gives net charge zero."
+  },
+  {
+    "id": "gk_sci_08",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-08",
+    "text": "What does DNA stand for?",
+    "options": [
+      "Dynamic Nucleic Acid",
+      "Deoxyribonucleic Acid",
+      "Dual Ribose Nitrogen Acid",
+      "Data Nucleus Array"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "DNA stands for Deoxyribonucleic Acid."
+  },
+  {
+    "id": "gk_sci_09",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-09",
+    "text": "Which nutrient is the body's main quick energy source?",
+    "options": [
+      "Carbohydrates",
+      "Vitamins",
+      "Minerals",
+      "Water"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "Carbohydrates are the main rapid energy source."
+  },
+  {
+    "id": "gk_sci_10",
+    "unit": "General Knowledge",
+    "topic": "Science & Health Essentials",
+    "objectiveCode": "GK-SCI-10",
+    "text": "The law of conservation of energy states energy:",
+    "options": [
+      "Can be created and destroyed",
+      "Can only be destroyed",
+      "Cannot be created or destroyed, only transformed",
+      "Exists only in living cells"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Energy changes form but is conserved in closed systems."
+  },
+  {
+    "id": "gk_math_01",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-01",
+    "text": "What is 15% of 200?",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "40"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "0.15 x 200 = 30."
+  },
+  {
+    "id": "gk_math_02",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-02",
+    "text": "If a product costs $80 and is discounted by 25%, what is the sale price?",
+    "options": [
+      "$50",
+      "$55",
+      "$60",
+      "$65"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "25% of 80 is 20, so 80 - 20 = 60."
+  },
+  {
+    "id": "gk_math_03",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-03",
+    "text": "What is the median of 3, 7, 8, 11, 20?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "The middle value in ordered data is 8."
+  },
+  {
+    "id": "gk_math_04",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-04",
+    "text": "What is the probability of getting heads on a fair coin toss?",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "A fair coin has equal chance of heads or tails."
+  },
+  {
+    "id": "gk_math_05",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-05",
+    "text": "If x + 5 = 17, what is x?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Subtract 5 from both sides: x = 12."
+  },
+  {
+    "id": "gk_math_06",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-06",
+    "text": "A graph where two variables tend to increase together shows:",
+    "options": [
+      "Negative correlation",
+      "No correlation",
+      "Positive correlation",
+      "Causation only"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Positive correlation means both variables move in the same direction."
+  },
+  {
+    "id": "gk_math_07",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-07",
+    "text": "In scientific notation, 0.00045 is:",
+    "options": [
+      "4.5 x 10^-4",
+      "45 x 10^-4",
+      "4.5 x 10^4",
+      "0.45 x 10^-6"
+    ],
+    "correctIndex": 0,
+    "era": 1,
+    "explanation": "Move decimal 4 places right: 4.5 x 10^-4."
+  },
+  {
+    "id": "gk_math_08",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-08",
+    "text": "What is 7 squared?",
+    "options": [
+      "14",
+      "21",
+      "49",
+      "77"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "7^2 = 49."
+  },
+  {
+    "id": "gk_math_09",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-09",
+    "text": "If a claim says \"A causes B\", the strongest support usually comes from:",
+    "options": [
+      "Anecdotes",
+      "A controlled experiment",
+      "A single social media post",
+      "A guess from an influencer"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Controlled experiments better isolate causal relationships."
+  },
+  {
+    "id": "gk_math_10",
+    "unit": "General Knowledge",
+    "topic": "Math, Data & Logic",
+    "objectiveCode": "GK-MATH-10",
+    "text": "What does it mean when sample size increases in a survey?",
+    "options": [
+      "Results are always correct",
+      "Random error tends to decrease",
+      "Bias disappears completely",
+      "Percentages stop mattering"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Larger samples usually reduce random sampling error, though bias can remain."
+  },
+  {
+    "id": "gk_civ_01",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-01",
+    "text": "In a democracy, voting is primarily a way citizens:",
+    "options": [
+      "Choose monarchs",
+      "Influence who governs and policy direction",
+      "Avoid paying tax",
+      "Replace courts"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Voting helps citizens shape government representation and policy."
+  },
+  {
+    "id": "gk_civ_02",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-02",
+    "text": "What is inflation?",
+    "options": [
+      "A fall in prices over time",
+      "A rise in general prices over time",
+      "The stock market only",
+      "Government debt repayment"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Inflation means average prices increase over time."
+  },
+  {
+    "id": "gk_civ_03",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-03",
+    "text": "A budget deficit occurs when government spending is:",
+    "options": [
+      "Less than revenue",
+      "Equal to revenue",
+      "More than revenue",
+      "Only on infrastructure"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Deficit means spending exceeds income."
+  },
+  {
+    "id": "gk_civ_04",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-04",
+    "text": "What is the main purpose of taxes?",
+    "options": [
+      "To fund public services and infrastructure",
+      "To punish all workers",
+      "To control weather",
+      "To replace private business"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "Taxes fund schools, roads, hospitals, and other public services."
+  },
+  {
+    "id": "gk_civ_05",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-05",
+    "text": "The rule of law means:",
+    "options": [
+      "Only leaders must obey laws",
+      "Laws apply consistently, including to governments",
+      "Laws change daily",
+      "Courts have no role"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Rule of law means legal accountability applies broadly and consistently."
+  },
+  {
+    "id": "gk_civ_06",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-06",
+    "text": "A high-interest credit card balance usually leads to:",
+    "options": [
+      "Cheaper long-term borrowing",
+      "Rapidly growing debt if unpaid",
+      "Automatic debt cancellation",
+      "Higher savings rates"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Compounding interest can grow debt quickly."
+  },
+  {
+    "id": "gk_civ_07",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-07",
+    "text": "Diversifying investments mainly helps to:",
+    "options": [
+      "Guarantee profit",
+      "Reduce risk from any single asset",
+      "Avoid all taxes",
+      "Increase inflation"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Diversification spreads risk across assets."
+  },
+  {
+    "id": "gk_civ_08",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-08",
+    "text": "Which is generally a fixed expense in a personal budget?",
+    "options": [
+      "Rent",
+      "Movie tickets",
+      "Takeaway meals",
+      "Holiday spending"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "Rent is typically fixed month to month."
+  },
+  {
+    "id": "gk_civ_09",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-09",
+    "text": "Opportunity cost is best defined as:",
+    "options": [
+      "Money spent on ads",
+      "The next best alternative you give up",
+      "A mandatory tax",
+      "A sunk cost only"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Opportunity cost is the value of the forgone alternative."
+  },
+  {
+    "id": "gk_civ_10",
+    "unit": "General Knowledge",
+    "topic": "Civics, Law & Economy",
+    "objectiveCode": "GK-CIV-10",
+    "text": "In most legal systems, a person accused of a crime is presumed:",
+    "options": [
+      "Guilty by default",
+      "Innocent until proven guilty",
+      "Liable for all damages",
+      "Unable to appeal"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Presumption of innocence is a core legal principle."
+  },
+  {
+    "id": "gk_dig_01",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-01",
+    "text": "What is phishing?",
+    "options": [
+      "A method of compressing files",
+      "A scam that tricks people into giving sensitive information",
+      "A type of firewall",
+      "A legal cybersecurity audit"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Phishing impersonates trusted entities to steal data."
+  },
+  {
+    "id": "gk_dig_02",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-02",
+    "text": "Two-factor authentication (2FA) improves security by:",
+    "options": [
+      "Replacing passwords with usernames",
+      "Adding an extra verification step",
+      "Encrypting Wi-Fi automatically",
+      "Blocking all malware"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "2FA requires an additional proof of identity."
+  },
+  {
+    "id": "gk_dig_03",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-03",
+    "text": "A strong password is usually:",
+    "options": [
+      "Short and easy to remember",
+      "A long unique passphrase used only once",
+      "Your birth date",
+      "The same across all sites"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Long, unique passwords reduce account compromise risk."
+  },
+  {
+    "id": "gk_dig_04",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-04",
+    "text": "Why should software be updated regularly?",
+    "options": [
+      "Updates reduce storage space",
+      "Updates patch security vulnerabilities and bugs",
+      "Updates remove all ads",
+      "Updates make passwords unnecessary"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Security updates patch known vulnerabilities."
+  },
+  {
+    "id": "gk_dig_05",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-05",
+    "text": "Misinformation differs from disinformation because misinformation is:",
+    "options": [
+      "Always true",
+      "False but not necessarily shared with intent to deceive",
+      "Legal evidence",
+      "Generated only by bots"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Misinformation can be accidental; disinformation is intentional deception."
+  },
+  {
+    "id": "gk_dig_06",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-06",
+    "text": "A reliable way to verify a dramatic online claim is to:",
+    "options": [
+      "Share it immediately",
+      "Check multiple credible sources and original context",
+      "Trust the most-liked comment",
+      "Ignore publication date"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Cross-checking sources and context improves reliability."
+  },
+  {
+    "id": "gk_dig_07",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-07",
+    "text": "What does a VPN primarily do?",
+    "options": [
+      "Guarantees anonymity in all situations",
+      "Creates an encrypted connection tunnel",
+      "Prevents all viruses",
+      "Increases battery life"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "VPNs encrypt traffic between device and VPN server."
+  },
+  {
+    "id": "gk_dig_08",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-08",
+    "text": "If a website URL looks slightly misspelled from a known brand, you should:",
+    "options": [
+      "Log in anyway",
+      "Treat it as suspicious and verify the domain",
+      "Disable antivirus",
+      "Clear browser history first"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Look-alike domains are common in phishing attacks."
+  },
+  {
+    "id": "gk_dig_09",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-09",
+    "text": "The safest response to an unexpected attachment from an unknown sender is to:",
+    "options": [
+      "Open it quickly",
+      "Forward it to friends",
+      "Do not open it and verify sender legitimacy",
+      "Rename it and run it"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Unknown attachments can contain malware."
+  },
+  {
+    "id": "gk_dig_10",
+    "unit": "General Knowledge",
+    "topic": "Digital Literacy & Cyber Safety",
+    "objectiveCode": "GK-DIG-10",
+    "text": "Digital footprint refers to:",
+    "options": [
+      "Your step count app history",
+      "The trail of data you leave online",
+      "Only deleted emails",
+      "Your phone battery cycle"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Online activity leaves persistent traces across services."
+  },
+  {
+    "id": "gk_geo_01",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-01",
+    "text": "What is the capital city of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Canberra is Australia's capital."
+  },
+  {
+    "id": "gk_geo_02",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-02",
+    "text": "Which ocean lies on Australia's east coast?",
+    "options": [
+      "Indian Ocean",
+      "Southern Ocean",
+      "Atlantic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctIndex": 3,
+    "era": 0,
+    "explanation": "The Pacific Ocean lies east of Australia."
+  },
+  {
+    "id": "gk_geo_03",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-03",
+    "text": "The longest river in the world is commonly cited as the:",
+    "options": [
+      "Amazon",
+      "Nile",
+      "Yangtze",
+      "Mississippi"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Most standard references list the Nile as longest."
+  },
+  {
+    "id": "gk_geo_04",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-04",
+    "text": "Which ancient civilization built Machu Picchu?",
+    "options": [
+      "Aztec",
+      "Maya",
+      "Inca",
+      "Roman"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Machu Picchu was built by the Inca civilization."
+  },
+  {
+    "id": "gk_geo_05",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-05",
+    "text": "World War II ended in:",
+    "options": [
+      "1918",
+      "1939",
+      "1945",
+      "1955"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "WWII concluded in 1945."
+  },
+  {
+    "id": "gk_geo_06",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-06",
+    "text": "The Great Wall is located in:",
+    "options": [
+      "India",
+      "China",
+      "Japan",
+      "Mongolia"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "The Great Wall is in China."
+  },
+  {
+    "id": "gk_geo_07",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-07",
+    "text": "Which language has the highest number of native speakers globally?",
+    "options": [
+      "English",
+      "Spanish",
+      "Mandarin Chinese",
+      "Hindi"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Mandarin has the largest native-speaker population."
+  },
+  {
+    "id": "gk_geo_08",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-08",
+    "text": "The equator divides Earth into:",
+    "options": [
+      "East and West hemispheres",
+      "Northern and Southern hemispheres",
+      "Tropical and polar zones",
+      "Land and sea"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "The equator marks 0? latitude between north and south hemispheres."
+  },
+  {
+    "id": "gk_geo_09",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-09",
+    "text": "UNESCO World Heritage sites are recognized for:",
+    "options": [
+      "Only tourism income",
+      "Outstanding cultural or natural value",
+      "Military importance",
+      "Population density"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "UNESCO lists sites of significant cultural or natural importance."
+  },
+  {
+    "id": "gk_geo_10",
+    "unit": "General Knowledge",
+    "topic": "Geography, History & Culture",
+    "objectiveCode": "GK-GEO-10",
+    "text": "Which continent has the most countries?",
+    "options": [
+      "Asia",
+      "Africa",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Africa has the highest number of sovereign states."
+  },
+  {
+    "id": "gk_tri_01",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-01",
+    "text": "Which planet has the most moons currently known?",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctIndex": 2,
+    "era": 2,
+    "explanation": "Current observations list Saturn with the most confirmed moons."
+  },
+  {
+    "id": "gk_tri_02",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-02",
+    "text": "Honey is unusual because it:",
+    "options": [
+      "Spoils quickly",
+      "Can remain edible for very long periods",
+      "Contains no sugar",
+      "Must be refrigerated"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Low water activity and acidity make honey highly shelf-stable."
+  },
+  {
+    "id": "gk_tri_03",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-03",
+    "text": "Octopuses have how many hearts?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Octopuses have three hearts."
+  },
+  {
+    "id": "gk_tri_04",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-04",
+    "text": "What is the only mammal capable of true sustained flight?",
+    "options": [
+      "Flying squirrel",
+      "Bat",
+      "Sugar glider",
+      "Penguin"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Bats are the only mammals capable of true powered flight."
+  },
+  {
+    "id": "gk_tri_05",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-05",
+    "text": "The smallest unit of digital information is a:",
+    "options": [
+      "Byte",
+      "Bit",
+      "Kilobyte",
+      "Nibble"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "A bit is the smallest binary unit (0 or 1)."
+  },
+  {
+    "id": "gk_tri_06",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-06",
+    "text": "Which element has the chemical symbol Au?",
+    "options": [
+      "Silver",
+      "Argon",
+      "Gold",
+      "Aluminium"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Au is the symbol for gold."
+  },
+  {
+    "id": "gk_tri_07",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-07",
+    "text": "What causes tides on Earth mainly?",
+    "options": [
+      "Volcanic eruptions",
+      "Moon's gravitational pull",
+      "Earthquakes",
+      "Solar flares"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "The Moon's gravity is the main driver of tides."
+  },
+  {
+    "id": "gk_tri_08",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-08",
+    "text": "Which instrument measures atmospheric pressure?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hydrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Barometers measure atmospheric pressure."
+  },
+  {
+    "id": "gk_tri_09",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-09",
+    "text": "A group of crows is commonly called a:",
+    "options": [
+      "Herd",
+      "Colony",
+      "Murder",
+      "Pod"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "The traditional collective noun is a murder of crows."
+  },
+  {
+    "id": "gk_tri_10",
+    "unit": "General Knowledge",
+    "topic": "Cool Facts & Trivia",
+    "objectiveCode": "GK-TRI-10",
+    "text": "The first programmable general-purpose electronic computer was:",
+    "options": [
+      "UNIVAC",
+      "ENIAC",
+      "Altair 8800",
+      "Apple II"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "ENIAC is widely cited as an early general-purpose electronic computer."
+  },
+  {
+    "id": "gk_mov_01",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-01",
+    "text": "Which film won the first Academy Award for Best Picture in 1929?",
+    "options": [
+      "Wings",
+      "Metropolis",
+      "Sunrise",
+      "The Jazz Singer"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Wings won the first Best Picture Oscar (then called Outstanding Picture)."
+  },
+  {
+    "id": "gk_mov_02",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-02",
+    "text": "In the Harry Potter films, what house is Harry sorted into?",
+    "options": [
+      "Slytherin",
+      "Ravenclaw",
+      "Hufflepuff",
+      "Gryffindor"
+    ],
+    "correctIndex": 3,
+    "era": 0,
+    "explanation": "Harry is sorted into Gryffindor."
+  },
+  {
+    "id": "gk_mov_03",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-03",
+    "text": "What is the highest-grossing film franchise (by total box office) among these?",
+    "options": [
+      "Star Wars",
+      "Marvel Cinematic Universe",
+      "Harry Potter/Wizarding World",
+      "Fast & Furious"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "The MCU leads total worldwide franchise box office among these options."
+  },
+  {
+    "id": "gk_mov_04",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-04",
+    "text": "Which director is most associated with the films Inception and Interstellar?",
+    "options": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "James Cameron"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Christopher Nolan directed both films."
+  },
+  {
+    "id": "gk_mov_05",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-05",
+    "text": "In animation, Pixar's first feature-length film was:",
+    "options": [
+      "Toy Story",
+      "A Bug's Life",
+      "Finding Nemo",
+      "Monsters, Inc."
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "Toy Story (1995) was Pixar's first feature film."
+  },
+  {
+    "id": "gk_mov_06",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-06",
+    "text": "What does ?PG? in movie ratings generally indicate?",
+    "options": [
+      "Adults only",
+      "No one under 13 allowed",
+      "Parental guidance suggested",
+      "Unrated independent film"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "PG means parental guidance is suggested for some material."
+  },
+  {
+    "id": "gk_mov_07",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-07",
+    "text": "The phrase ?Winter is coming? is from which TV series?",
+    "options": [
+      "The Witcher",
+      "Game of Thrones",
+      "Vikings",
+      "House of the Dragon"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "It is the Stark family motto in Game of Thrones."
+  },
+  {
+    "id": "gk_mov_08",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-08",
+    "text": "Which New Zealand city became famous as a base for filming The Lord of the Rings trilogy?",
+    "options": [
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Dunedin"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Wellington was a major production base for the trilogy."
+  },
+  {
+    "id": "gk_mov_09",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-09",
+    "text": "In filmmaking, what is a ?sequel??",
+    "options": [
+      "A remake by another studio",
+      "A movie that continues the story of an earlier film",
+      "A behind-the-scenes documentary",
+      "A shorter version of the original"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "A sequel continues narrative events from a previous film."
+  },
+  {
+    "id": "gk_mov_10",
+    "unit": "General Knowledge",
+    "topic": "Movies & TV",
+    "objectiveCode": "GK-MOV-10",
+    "text": "Which movie character says ?I'll be back??",
+    "options": [
+      "Rocky Balboa",
+      "The Terminator",
+      "Indiana Jones",
+      "Darth Vader"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "The quote is famously spoken by the Terminator."
+  },
+  {
+    "id": "gk_mus_01",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-01",
+    "text": "How many semitones are in one octave in Western music?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "An octave spans 12 semitones in equal temperament."
+  },
+  {
+    "id": "gk_mus_02",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-02",
+    "text": "Which clef is commonly used for most high vocal and melody lines?",
+    "options": [
+      "Bass clef",
+      "Treble clef",
+      "Alto clef",
+      "Tenor clef"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Treble clef is standard for many melody instruments and voices."
+  },
+  {
+    "id": "gk_mus_03",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-03",
+    "text": "A tempo marking of ?Allegro? generally means:",
+    "options": [
+      "Very slow",
+      "Moderately slow",
+      "Fast/lively",
+      "Free rhythm"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Allegro indicates a brisk, lively pace."
+  },
+  {
+    "id": "gk_mus_04",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-04",
+    "text": "Which instrument family does the violin belong to?",
+    "options": [
+      "Woodwind",
+      "Brass",
+      "Percussion",
+      "Strings"
+    ],
+    "correctIndex": 3,
+    "era": 0,
+    "explanation": "The violin is a bowed string instrument."
+  },
+  {
+    "id": "gk_mus_05",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-05",
+    "text": "What does BPM stand for in music production?",
+    "options": [
+      "Beats per minute",
+      "Bars per melody",
+      "Bass per measure",
+      "Beats per melody"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "BPM is beats per minute, a tempo measure."
+  },
+  {
+    "id": "gk_mus_06",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-06",
+    "text": "Which country is widely recognized as the birthplace of hip-hop culture?",
+    "options": [
+      "Jamaica",
+      "United Kingdom",
+      "United States",
+      "France"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Hip-hop emerged in the Bronx, New York City, USA."
+  },
+  {
+    "id": "gk_mus_07",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-07",
+    "text": "In a standard orchestra, which section usually keeps rhythmic pulse with timpani and snare?",
+    "options": [
+      "Strings",
+      "Woodwinds",
+      "Percussion",
+      "Brass"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "The percussion section anchors rhythm with instruments like timpani and snare."
+  },
+  {
+    "id": "gk_mus_08",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-08",
+    "text": "What is a ?chorus? in a pop song?",
+    "options": [
+      "Instrument setup list",
+      "A repeated section, often with the main hook",
+      "The song's first verse only",
+      "A spoken intro"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "The chorus is typically repeated and carries the main hook."
+  },
+  {
+    "id": "gk_mus_09",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-09",
+    "text": "Which digital format is usually lossless among these options?",
+    "options": [
+      "MP3",
+      "AAC",
+      "FLAC",
+      "OGG"
+    ],
+    "correctIndex": 2,
+    "era": 2,
+    "explanation": "FLAC is a common lossless audio format."
+  },
+  {
+    "id": "gk_mus_10",
+    "unit": "General Knowledge",
+    "topic": "Music",
+    "objectiveCode": "GK-MUS-10",
+    "text": "A major scale pattern (in whole/half steps) starts as:",
+    "options": [
+      "W-W-H-W-W-W-H",
+      "H-W-W-H-W-W-W",
+      "W-H-W-H-W-H-W",
+      "H-H-W-W-H-W-W"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "The major scale interval pattern is W-W-H-W-W-W-H."
+  },
+  {
+    "id": "gk_oth_01",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-01",
+    "text": "In chess, which piece can move in an L-shape?",
+    "options": [
+      "Bishop",
+      "Knight",
+      "Rook",
+      "Queen"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "The knight is the only piece with an L-shaped move."
+  },
+  {
+    "id": "gk_oth_02",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-02",
+    "text": "How many players are on a basketball team on court at one time?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Each team has 5 players on court in standard basketball."
+  },
+  {
+    "id": "gk_oth_03",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-03",
+    "text": "Which sport uses terms like ?birdie? and ?eagle??",
+    "options": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Baseball"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Birdie and eagle are golf scoring terms."
+  },
+  {
+    "id": "gk_oth_04",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-04",
+    "text": "In computing, what does ?URL? stand for?",
+    "options": [
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "Unified Routing Link",
+      "Universal Routing Link"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "URL stands for Uniform Resource Locator."
+  },
+  {
+    "id": "gk_oth_05",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-05",
+    "text": "Which of these is a renewable energy source?",
+    "options": [
+      "Coal",
+      "Natural gas",
+      "Solar",
+      "Diesel"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Solar is renewable; fossil fuels are non-renewable."
+  },
+  {
+    "id": "gk_oth_06",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-06",
+    "text": "Which country hosted the 2000 Summer Olympics?",
+    "options": [
+      "Greece",
+      "Australia",
+      "China",
+      "United Kingdom"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Sydney, Australia hosted the 2000 Summer Olympics."
+  },
+  {
+    "id": "gk_oth_07",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-07",
+    "text": "What is the primary purpose of a bibliography in school assignments?",
+    "options": [
+      "To increase word count",
+      "To list sources used and support academic integrity",
+      "To summarize the conclusion",
+      "To show only websites"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "A bibliography cites sources and supports transparent referencing."
+  },
+  {
+    "id": "gk_oth_08",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-08",
+    "text": "Which emergency number is used in Australia for police, fire, and ambulance?",
+    "options": [
+      "000",
+      "111",
+      "911",
+      "999"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "Australia's emergency number is 000."
+  },
+  {
+    "id": "gk_oth_09",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-09",
+    "text": "In environmental science, biodiversity means:",
+    "options": [
+      "The number of planets in a system",
+      "The variety of life in an area",
+      "Only endangered animals",
+      "A measure of rainfall only"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Biodiversity refers to the range of organisms and ecosystems."
+  },
+  {
+    "id": "gk_oth_10",
+    "unit": "General Knowledge",
+    "topic": "Other",
+    "objectiveCode": "GK-OTH-10",
+    "text": "If you receive an unknown QR code link in a random message, safest first action is:",
+    "options": [
+      "Scan immediately",
+      "Verify source before opening",
+      "Forward to classmates",
+      "Disable phone lock"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Treat unknown QR codes as potential phishing vectors and verify first."
+  },
+  {
+    "id": "gk_spt_01",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-01",
+    "text": "How many players per team are on the field at one time in soccer (association football)?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Each soccer team fields 11 players, including the goalkeeper."
+  },
+  {
+    "id": "gk_spt_02",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-02",
+    "text": "In tennis, what is the score called when both players have 40?",
+    "options": [
+      "Tie-break",
+      "Advantage",
+      "Deuce",
+      "Break point"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "At 40-40, the score is deuce."
+  },
+  {
+    "id": "gk_spt_03",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-03",
+    "text": "The Olympic Games are generally held every:",
+    "options": [
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Summer and Winter Olympics each follow a 4-year cycle."
+  },
+  {
+    "id": "gk_spt_04",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-04",
+    "text": "In cricket, how many runs is a boundary worth when the ball crosses the rope on the ground?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "A ground boundary is 4 runs; over the rope on the full is 6."
+  },
+  {
+    "id": "gk_spt_05",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-05",
+    "text": "Which event is Usain Bolt most famous for dominating?",
+    "options": [
+      "Marathon",
+      "100m sprint",
+      "High jump",
+      "1500m"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Usain Bolt is most famous for the 100m and 200m sprints."
+  },
+  {
+    "id": "gk_spt_06",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-06",
+    "text": "A ?hat-trick? in many sports means:",
+    "options": [
+      "Three goals/wickets/points by one player in a game",
+      "A winning streak of ten games",
+      "A perfect defensive game",
+      "A tie after overtime"
+    ],
+    "correctIndex": 0,
+    "era": 1,
+    "explanation": "Hat-trick usually means achieving three notable scoring outcomes in one game."
+  },
+  {
+    "id": "gk_spt_07",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-07",
+    "text": "In swimming, which stroke is typically the fastest in elite competition?",
+    "options": [
+      "Breaststroke",
+      "Backstroke",
+      "Butterfly",
+      "Freestyle"
+    ],
+    "correctIndex": 3,
+    "era": 1,
+    "explanation": "Freestyle (front crawl) is usually fastest."
+  },
+  {
+    "id": "gk_spt_08",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-08",
+    "text": "The FIFA World Cup is a major international tournament in:",
+    "options": [
+      "Rugby union",
+      "Basketball",
+      "Soccer",
+      "Hockey"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "FIFA World Cup is the global soccer tournament."
+  },
+  {
+    "id": "gk_spt_09",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-09",
+    "text": "In basketball, how many points is a shot from beyond the arc worth?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "A successful shot beyond the three-point line is worth 3."
+  },
+  {
+    "id": "gk_spt_10",
+    "unit": "General Knowledge",
+    "topic": "Sports",
+    "objectiveCode": "GK-SPT-10",
+    "text": "Which body system improves directly with regular aerobic exercise?",
+    "options": [
+      "Digestive only",
+      "Cardiovascular",
+      "Skeletal only",
+      "Endocrine only"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Aerobic training improves cardiovascular efficiency and endurance."
+  },
+  {
+    "id": "gk_gam_01",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-01",
+    "text": "What does ?FPS? usually stand for in gaming genres?",
+    "options": [
+      "Fast Play Session",
+      "First-Person Shooter",
+      "Frame Performance Sync",
+      "Full Player Server"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "FPS commonly means first-person shooter."
+  },
+  {
+    "id": "gk_gam_02",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-02",
+    "text": "In Minecraft, which material is needed to build a Nether portal frame?",
+    "options": [
+      "Iron",
+      "Obsidian",
+      "Diamond",
+      "Quartz"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "A Nether portal frame is built using obsidian blocks."
+  },
+  {
+    "id": "gk_gam_03",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-03",
+    "text": "In chess notation and many strategy games, ?GG? is shorthand for:",
+    "options": [
+      "Go Goal",
+      "Good Game",
+      "Great Graphics",
+      "Global Guild"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "GG is common sportsmanship shorthand for ?good game.?"
+  },
+  {
+    "id": "gk_gam_04",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-04",
+    "text": "What does ?RPG? stand for in game genres?",
+    "options": [
+      "Rapid Play Game",
+      "Role-Playing Game",
+      "Real Physics Graphics",
+      "Ranked Points Game"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "RPG stands for role-playing game."
+  },
+  {
+    "id": "gk_gam_05",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-05",
+    "text": "A ?speedrun? is best described as:",
+    "options": [
+      "Playing with maximum graphics settings",
+      "Finishing a game as fast as possible under chosen rules",
+      "Only playing tutorial levels",
+      "Streaming without commentary"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Speedruns focus on fastest completion times with specific categories/rules."
+  },
+  {
+    "id": "gk_gam_06",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-06",
+    "text": "In esports, ?ping? usually refers to:",
+    "options": [
+      "Character health",
+      "Internet latency",
+      "Mouse sensitivity",
+      "Audio quality"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Ping measures network delay between client and server."
+  },
+  {
+    "id": "gk_gam_07",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-07",
+    "text": "Which company is known for the PlayStation console brand?",
+    "options": [
+      "Microsoft",
+      "Nintendo",
+      "Sony",
+      "Sega"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "PlayStation is a console brand from Sony."
+  },
+  {
+    "id": "gk_gam_08",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-08",
+    "text": "In many online games, ?DPS? typically means:",
+    "options": [
+      "Damage Per Second",
+      "Defense Per Skill",
+      "Data Packet Speed",
+      "Dynamic Player System"
+    ],
+    "correctIndex": 0,
+    "era": 1,
+    "explanation": "DPS is damage output per second."
+  },
+  {
+    "id": "gk_gam_09",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-09",
+    "text": "A common healthy gaming practice for students is to:",
+    "options": [
+      "Play until 3am on school nights",
+      "Take regular breaks and manage screen time",
+      "Skip hydration",
+      "Use the same weak password everywhere"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Breaks and time limits help with health, focus, and sleep."
+  },
+  {
+    "id": "gk_gam_10",
+    "unit": "General Knowledge",
+    "topic": "Gaming",
+    "objectiveCode": "GK-GAM-10",
+    "text": "What is ?cross-platform play??",
+    "options": [
+      "Using only one console model",
+      "Playing online with users on different hardware platforms",
+      "Playing without internet",
+      "Sharing one account password"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Cross-platform means players on different systems can play together."
+  }
+]

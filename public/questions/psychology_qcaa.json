@@ -1,0 +1,3186 @@
+[
+  {
+    "id": "u1_t1_q1",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.01",
+    "text": "Which statement best matches a materialist view of the mind-body problem?",
+    "options": [
+      "Mind and body are separate substances",
+      "Mental states arise from brain processes",
+      "Consciousness exists independently of the body",
+      "Mind can never be scientifically investigated"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Materialism explains mental activity as a product of physical brain function."
+  },
+  {
+    "id": "u1_t1_q2",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.01",
+    "text": "René Descartes is most associated with which perspective?",
+    "options": [
+      "Dualism",
+      "Behaviorism",
+      "Functionalism",
+      "Biological reductionism"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "Descartes argued for mind-body dualism."
+  },
+  {
+    "id": "u1_t1_q3",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.02",
+    "text": "Why is phrenology considered pseudoscientific?",
+    "options": [
+      "It used no hypotheses",
+      "It assumed skull shape reliably indicates psychological traits",
+      "It used experimental controls",
+      "It focused only on reflexes"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Phrenology used invalid assumptions linking skull bumps to personality and ability."
+  },
+  {
+    "id": "u1_t1_q4",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.02",
+    "text": "Penfield advanced brain science mainly through:",
+    "options": [
+      "Twin studies",
+      "Naturalistic observation",
+      "Direct cortical stimulation in neurosurgery",
+      "Longitudinal surveys"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "Penfield mapped functions using stimulation during surgery."
+  },
+  {
+    "id": "u1_t1_q5",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.03",
+    "text": "Which method has high temporal resolution for brain activity?",
+    "options": [
+      "MRI",
+      "PET",
+      "EEG",
+      "CT"
+    ],
+    "correctIndex": 2,
+    "era": 1,
+    "explanation": "EEG captures rapid electrical changes over milliseconds."
+  },
+  {
+    "id": "u1_t1_q6",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.03",
+    "text": "Compared with EEG, fMRI is generally stronger in:",
+    "options": [
+      "Temporal resolution",
+      "Spatial resolution",
+      "Portability",
+      "Cost effectiveness"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "fMRI localises activity more precisely in space."
+  },
+  {
+    "id": "u1_t1_q7",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.04",
+    "text": "The central nervous system includes:",
+    "options": [
+      "Brain and spinal cord",
+      "Somatic and autonomic systems",
+      "Cranial nerves only",
+      "Endocrine glands"
+    ],
+    "correctIndex": 0,
+    "era": 0,
+    "explanation": "CNS is composed of the brain and spinal cord."
+  },
+  {
+    "id": "u1_t1_q8",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.04",
+    "text": "The autonomic nervous system primarily regulates:",
+    "options": [
+      "Voluntary skeletal movement",
+      "Automatic internal processes",
+      "Conscious memory recall",
+      "Speech perception"
+    ],
+    "correctIndex": 1,
+    "era": 0,
+    "explanation": "Autonomic pathways regulate involuntary functions like heart rate and digestion."
+  },
+  {
+    "id": "u1_t1_q9",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.05",
+    "text": "Which neuron structure receives most incoming signals?",
+    "options": [
+      "Axon terminal",
+      "Myelin sheath",
+      "Dendrites",
+      "Node of Ranvier"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Dendrites are specialised for input reception."
+  },
+  {
+    "id": "u1_t1_q10",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.06",
+    "text": "Motor neurons carry signals primarily:",
+    "options": [
+      "From receptors to CNS",
+      "Between sensory receptors",
+      "From CNS to effectors",
+      "Across the corpus callosum"
+    ],
+    "correctIndex": 2,
+    "era": 0,
+    "explanation": "Motor neurons transmit commands to muscles and glands."
+  },
+  {
+    "id": "u1_t1_q11",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.07",
+    "text": "The forebrain includes structures such as the:",
+    "options": [
+      "Medulla only",
+      "Cerebral cortex",
+      "Spinal roots",
+      "Cochlea"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "The forebrain includes the cortex and higher-order structures."
+  },
+  {
+    "id": "u1_t1_q12",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.08",
+    "text": "Damage to Wernicke’s area most often impairs:",
+    "options": [
+      "Language comprehension",
+      "Balance and posture",
+      "Primary vision",
+      "Fine motor precision"
+    ],
+    "correctIndex": 0,
+    "era": 1,
+    "explanation": "Wernicke’s area is strongly linked with language comprehension."
+  },
+  {
+    "id": "u1_t1_q13",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "SHE-1.01",
+    "text": "A major ethical concern in early invasive brain research was:",
+    "options": [
+      "Lack of statistics",
+      "Potential participant harm from risky procedures",
+      "Too much ecological validity",
+      "Excessive random allocation"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Invasive historical methods often involved substantial patient risk."
+  },
+  {
+    "id": "u1_t1_q14",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "SHE-1.03",
+    "text": "Understanding localisation helps psychologists to:",
+    "options": [
+      "Guarantee complete recovery",
+      "Predict effects of localised damage",
+      "Eliminate cognitive testing",
+      "Avoid all individual differences"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Localisation supports prediction of likely deficits after focal injury."
+  },
+  {
+    "id": "u1_t1_q15",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.9",
+    "text": "During adolescence, which process is strongly emphasised?",
+    "options": [
+      "No neural change",
+      "Continued myelination and synaptic pruning",
+      "Only increases in neuron number",
+      "Loss of prefrontal function"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Adolescent brain development includes pruning and ongoing myelination."
+  },
+  {
+    "id": "u1_t1_q16",
+    "unit": "Unit 1",
+    "topic": "The Role of the Brain",
+    "objectiveCode": "LO-1.10",
+    "text": "Neural plasticity refers to the brain’s ability to:",
+    "options": [
+      "Stay fixed after childhood",
+      "Adapt and reorganise with experience",
+      "Store only emotional memories",
+      "Ignore environmental input"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Plasticity is the capacity to change structure/function with experience or injury."
+  },
+  {
+    "id": "u1_t2_q1",
+    "unit": "Unit 1",
+    "topic": "Cognitive Development",
+    "objectiveCode": "LO-1.11",
+    "text": "Attachment is most closely linked with:",
+    "options": [
+      "Random motor development",
+      "Social-emotional development patterns",
+      "Eye colour inheritance",
+      "Hearing threshold only"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Attachment quality is associated with later emotional and social functioning."
+  },
+  {
+    "id": "u1_t2_q2",
+    "unit": "Unit 1",
+    "topic": "Cognitive Development",
+    "objectiveCode": "LO-1.12",
+    "text": "Early abuse/deprivation can negatively affect cognition by:",
+    "options": [
+      "Increasing executive control reliably",
+      "Disrupting stress and developmental pathways",
+      "Improving sustained attention in all contexts",
+      "Removing need for social learning"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Adverse early environments can alter neural development and later cognition."
+  },
+  {
+    "id": "u1_t2_q3",
+    "unit": "Unit 1",
+    "topic": "Cognitive Development",
+    "objectiveCode": "LO-1.13",
+    "text": "A key feature of Piaget’s theory is emphasis on:",
+    "options": [
+      "Social scaffolding only",
+      "Stage-based cognitive restructuring",
+      "Operant conditioning schedules",
+      "Trait inheritance from twins"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Piaget described qualitative stage changes in cognitive development."
+  },
+  {
+    "id": "u1_t2_q4",
+    "unit": "Unit 1",
+    "topic": "Cognitive Development",
+    "objectiveCode": "LO-1.13",
+    "text": "Vygotsky’s sociocultural perspective emphasises:",
+    "options": [
+      "Independent discovery without others",
+      "Social interaction and cultural tools",
+      "Purely biological maturation",
+      "Randomized clinical interventions"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Vygotsky highlighted social mediation and cultural context in learning."
+  },
+  {
+    "id": "u1_t3_q1",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.14",
+    "text": "The continuum of arousal ranges from:",
+    "options": [
+      "REM to NREM only",
+      "Sleep through to hyperarousal",
+      "Perception to memory",
+      "Classical to operant conditioning"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Arousal is viewed as a continuum from very low to very high activation states."
+  },
+  {
+    "id": "u1_t3_q2",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.15",
+    "text": "Divided attention involves:",
+    "options": [
+      "Focusing on one target only",
+      "Processing multiple tasks/stimuli at once",
+      "Switching off awareness entirely",
+      "Automatic sensory adaptation only"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Divided attention splits resources across multiple targets/tasks."
+  },
+  {
+    "id": "u1_t3_q3",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.16",
+    "text": "Melatonin release is linked to interaction between:",
+    "options": [
+      "Thalamus and cerebellum",
+      "Hypothalamus and pineal gland",
+      "Amygdala and hippocampus",
+      "Broca’s and Wernicke’s areas"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Hypothalamic control of circadian rhythms influences pineal melatonin secretion."
+  },
+  {
+    "id": "u1_t3_q4",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.17",
+    "text": "Which trio is commonly used to measure sleep/consciousness states?",
+    "options": [
+      "MRI, PET, fMRI",
+      "EEG, EMG, EOG",
+      "CT, ECG, DNA",
+      "SCL-90, DSM, ICD"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "EEG, EMG and EOG are core sleep-lab measures."
+  },
+  {
+    "id": "u1_t3_q5",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.18",
+    "text": "REM sleep is typically associated with:",
+    "options": [
+      "No brain activity",
+      "Rapid eye movement and vivid dreaming",
+      "Maximum muscle tone",
+      "Complete sensory shutdown"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "REM includes rapid eye movements and commonly vivid dream reports."
+  },
+  {
+    "id": "u1_t3_q6",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.19",
+    "text": "The restoration theory of sleep mainly argues that sleep:",
+    "options": [
+      "Exists only for predator avoidance",
+      "Repairs and restores physiological systems",
+      "Is culturally irrelevant",
+      "Occurs without brain regulation"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Restoration theory emphasises repair, recovery and homeostasis."
+  },
+  {
+    "id": "u1_t3_q7",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.21",
+    "text": "A likely consequence of sleep deprivation is:",
+    "options": [
+      "Improved inhibitory control",
+      "Reduced attention and mood regulation",
+      "Perfect memory retrieval",
+      "Increased deep-sleep avoidance"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Sleep loss impairs cognitive and emotional performance."
+  },
+  {
+    "id": "u1_t3_q8",
+    "unit": "Unit 1",
+    "topic": "Consciousness, Attention and Sleep",
+    "objectiveCode": "LO-1.23",
+    "text": "CPAP is most commonly used to treat:",
+    "options": [
+      "Insomnia due to stress only",
+      "Obstructive sleep apnoea",
+      "Narcolepsy cataplexy only",
+      "Night terrors in all ages"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "CPAP supports airway patency in obstructive sleep apnoea."
+  },
+  {
+    "id": "u2_t1_q1",
+    "unit": "Unit 2",
+    "topic": "Intelligence",
+    "objectiveCode": "LO-2.01",
+    "text": "The psychometric approach to intelligence is most associated with:",
+    "options": [
+      "Qualitative interviews only",
+      "Standardised measurement and IQ scores",
+      "Purely neural imaging markers",
+      "Case study narratives alone"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Psychometrics uses standardised tests and statistical scaling."
+  },
+  {
+    "id": "u2_t1_q2",
+    "unit": "Unit 2",
+    "topic": "Intelligence",
+    "objectiveCode": "LO-2.04",
+    "text": "A reliable intelligence test should produce:",
+    "options": [
+      "Different scores every day",
+      "Consistent scores across repeated testing",
+      "Only culturally neutral vocabulary items",
+      "No standard instructions"
+    ],
+    "correctIndex": 1,
+    "era": 1,
+    "explanation": "Reliability concerns consistency and stability of measurement."
+  },
+  {
+    "id": "u2_t1_q3",
+    "unit": "Unit 2",
+    "topic": "Intelligence",
+    "objectiveCode": "LO-2.05",
+    "text": "Twin and adoption studies are mainly used to examine:",
+    "options": [
+      "Sleep architecture",
+      "Nature-nurture contributions to intelligence",
+      "Visual illusions",
+      "Autonomic nervous pathways"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "These designs estimate genetic and environmental influence."
+  },
+  {
+    "id": "u2_t1_q4",
+    "unit": "Unit 2",
+    "topic": "Intelligence",
+    "objectiveCode": "SHE-2.03",
+    "text": "Cultural bias in IQ testing means that:",
+    "options": [
+      "Tests are always invalid",
+      "Test content may advantage some cultural groups",
+      "All IQ scores are identical",
+      "Reliability becomes impossible"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Cultural loading can distort fairness and interpretation."
+  },
+  {
+    "id": "u2_t2_q1",
+    "unit": "Unit 2",
+    "topic": "Diagnosis",
+    "objectiveCode": "LO-2.06",
+    "text": "Maladaptive behaviour is best described as behaviour that:",
+    "options": [
+      "Always increases wellbeing",
+      "Interferes with functioning and adaptation",
+      "Is uncommon but harmless",
+      "Occurs only in adolescence"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Maladaptive behaviour impairs coping, functioning or wellbeing."
+  },
+  {
+    "id": "u2_t2_q2",
+    "unit": "Unit 2",
+    "topic": "Diagnosis",
+    "objectiveCode": "LO-2.09",
+    "text": "DSM-5-TR and ICD-11 are both used to:",
+    "options": [
+      "Measure neurotransmitter release",
+      "Classify and diagnose psychological disorders",
+      "Train reflex arcs",
+      "Map cortical gyri directly"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Both manuals provide classification criteria for disorders."
+  },
+  {
+    "id": "u2_t2_q3",
+    "unit": "Unit 2",
+    "topic": "Diagnosis",
+    "objectiveCode": "LO-2.10",
+    "text": "Which category includes schizophrenia?",
+    "options": [
+      "Anxiety disorders",
+      "Schizophrenia spectrum and other psychotic disorders",
+      "Personality traits only",
+      "Learning disorders only"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Schizophrenia falls within the schizophrenia spectrum category."
+  },
+  {
+    "id": "u2_t2_q4",
+    "unit": "Unit 2",
+    "topic": "Diagnosis",
+    "objectiveCode": "LO-2.11",
+    "text": "Diagnostic validity refers to whether a diagnosis:",
+    "options": [
+      "Is popular with clinicians",
+      "Accurately identifies the intended disorder",
+      "Uses short questionnaires only",
+      "Always predicts treatment success"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Validity asks whether the diagnosis captures the target construct."
+  },
+  {
+    "id": "u2_t3_q1",
+    "unit": "Unit 2",
+    "topic": "Psychological Disorders and Treatments",
+    "objectiveCode": "LO-2.12",
+    "text": "The biopsychosocial model explains disorder by combining:",
+    "options": [
+      "Only biological causes",
+      "Biological, psychological and social factors",
+      "Only trauma history",
+      "Only diagnostic labels"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "It integrates multiple interacting levels of influence."
+  },
+  {
+    "id": "u2_t3_q2",
+    "unit": "Unit 2",
+    "topic": "Psychological Disorders and Treatments",
+    "objectiveCode": "LO-2.14",
+    "text": "A core feature of specific phobia is:",
+    "options": [
+      "Persistent fear tied to a specific object/situation",
+      "General reduced motivation",
+      "Delusions with disorganised speech",
+      "Elevated mood and grandiosity"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Specific phobia involves marked fear toward a defined stimulus."
+  },
+  {
+    "id": "u2_t3_q3",
+    "unit": "Unit 2",
+    "topic": "Psychological Disorders and Treatments",
+    "objectiveCode": "LO-2.16",
+    "text": "Psychotherapy differs from pharmacotherapy because psychotherapy primarily uses:",
+    "options": [
+      "Medication dosage protocols",
+      "Psychological techniques and therapeutic relationship",
+      "Electrical stimulation only",
+      "Surgical lesion methods"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Psychotherapy relies on psychological intervention rather than medication."
+  },
+  {
+    "id": "u2_t3_q4",
+    "unit": "Unit 2",
+    "topic": "Psychological Disorders and Treatments",
+    "objectiveCode": "LO-2.17",
+    "text": "The placebo effect is best described as improvement due to:",
+    "options": [
+      "The active pharmacological ingredient only",
+      "Expectancy/context rather than active treatment component",
+      "Random chance in all cases",
+      "Measurement error only"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Placebo responses reflect expectancy and treatment context effects."
+  },
+  {
+    "id": "u2_t4_q1",
+    "unit": "Unit 2",
+    "topic": "Emotion and Motivation",
+    "objectiveCode": "LO-2.19",
+    "text": "Schachter and Singer’s two-factor theory proposes emotion depends on:",
+    "options": [
+      "Physiological arousal plus cognitive label",
+      "Arousal without cognition",
+      "Cognition without arousal",
+      "Only genetic temperament"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Two-factor theory combines arousal and cognitive appraisal/interpretation."
+  },
+  {
+    "id": "u2_t4_q2",
+    "unit": "Unit 2",
+    "topic": "Emotion and Motivation",
+    "objectiveCode": "LO-2.20",
+    "text": "The amygdala is most strongly associated with:",
+    "options": [
+      "Visual acuity",
+      "Processing emotional salience, especially threat",
+      "Speech articulation",
+      "Spinal reflex integration"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "The amygdala plays a central role in emotional processing."
+  },
+  {
+    "id": "u2_t4_q3",
+    "unit": "Unit 2",
+    "topic": "Emotion and Motivation",
+    "objectiveCode": "LO-2.24",
+    "text": "Mindfulness is most accurately defined as:",
+    "options": [
+      "Suppressing all thoughts",
+      "Present-focused attention with non-judgmental acceptance",
+      "Maximising external rewards only",
+      "Avoiding emotional awareness"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Mindfulness combines attentional focus with acceptance."
+  },
+  {
+    "id": "u2_t4_q4",
+    "unit": "Unit 2",
+    "topic": "Emotion and Motivation",
+    "objectiveCode": "LO-2.26",
+    "text": "In self-efficacy theory, stronger efficacy expectations generally:",
+    "options": [
+      "Reduce effort persistence",
+      "Increase effort and persistence on tasks",
+      "Eliminate need for goals",
+      "Guarantee immediate success"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Belief in capability tends to support persistence and performance."
+  },
+  {
+    "id": "u3_t1_q1",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "LO-3.02",
+    "text": "A monosynaptic spinal reflex includes:",
+    "options": [
+      "One synapse between sensory and motor neuron",
+      "Multiple interneurons only",
+      "No spinal involvement",
+      "Cortical planning before movement"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Monosynaptic reflexes involve a single synapse in the reflex arc."
+  },
+  {
+    "id": "u3_t1_q2",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "LO-3.03",
+    "text": "Distributed processing means that cognitive tasks:",
+    "options": [
+      "Depend on one isolated neuron",
+      "Involve interacting networks across regions",
+      "Occur only in hindbrain",
+      "Are unrelated to localisation"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Many functions emerge from interacting neural networks."
+  },
+  {
+    "id": "u3_t1_q3",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "LO-3.07",
+    "text": "During synaptic transmission, neurotransmitters are released from the:",
+    "options": [
+      "Postsynaptic dendrite",
+      "Axon terminal into synaptic cleft",
+      "Myelin sheath into blood",
+      "Cell nucleus into ventricle"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Neurotransmitters are released from presynaptic terminals."
+  },
+  {
+    "id": "u3_t1_q4",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "LO-3.08",
+    "text": "GABA is generally classified as:",
+    "options": [
+      "Excitatory only",
+      "Inhibitory",
+      "Hormonal peptide only",
+      "A sensory receptor"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "GABA is the major inhibitory neurotransmitter in the CNS."
+  },
+  {
+    "id": "u3_t1_q5",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "LO-3.09",
+    "text": "Serotonin is commonly linked with regulation of:",
+    "options": [
+      "Mood and arousal",
+      "Blood clotting only",
+      "Spinal cord growth only",
+      "Visual acuity only"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Serotonin has broad roles including mood and arousal regulation."
+  },
+  {
+    "id": "u3_t1_q6",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "LO-3.10",
+    "text": "Parkinson’s disease is strongly associated with disruption to:",
+    "options": [
+      "Dopamine pathways",
+      "Retinal photoreceptors",
+      "Broca’s area only",
+      "Pineal melatonin release"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Parkinson’s involves degeneration affecting dopaminergic systems."
+  },
+  {
+    "id": "u3_t1_q7",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "SHE-3.02",
+    "text": "Plasticity after brain injury refers to:",
+    "options": [
+      "No change after trauma",
+      "Functional reorganisation that can support recovery",
+      "Automatic full recovery without rehab",
+      "Only peripheral nerve repair"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Plasticity can support partial recovery through neural reorganisation."
+  },
+  {
+    "id": "u3_t1_q8",
+    "unit": "Unit 3",
+    "topic": "Brain Function",
+    "objectiveCode": "SHE-3.04",
+    "text": "Interfering with neurotransmitter systems can have:",
+    "options": [
+      "Only beneficial outcomes",
+      "Beneficial and harmful consequences",
+      "No behavioural effects",
+      "Effects limited to spinal reflexes"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Neurochemical interventions can produce mixed outcomes."
+  },
+  {
+    "id": "u3_t2_q1",
+    "unit": "Unit 3",
+    "topic": "Sensation and Perception",
+    "objectiveCode": "LO-3.11",
+    "text": "In vision, transduction occurs when:",
+    "options": [
+      "Light is converted into neural signals in the retina",
+      "Sound is converted in the cochlea",
+      "Signals bypass the thalamus always",
+      "Perception is consciously labelled only"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "Photoreceptors transduce light energy into neural activity."
+  },
+  {
+    "id": "u3_t2_q2",
+    "unit": "Unit 3",
+    "topic": "Sensation and Perception",
+    "objectiveCode": "LO-3.11",
+    "text": "In hearing, the cochlea primarily:",
+    "options": [
+      "Controls eye movement",
+      "Converts sound waves into neural impulses",
+      "Produces melatonin",
+      "Stores long-term memory"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Hair cells in the cochlea transduce sound vibration."
+  },
+  {
+    "id": "u3_t2_q3",
+    "unit": "Unit 3",
+    "topic": "Sensation and Perception",
+    "objectiveCode": "LO-3.12",
+    "text": "Top-down processing is most influenced by:",
+    "options": [
+      "Receptor activation only",
+      "Prior knowledge and expectations",
+      "Purely random neural firing",
+      "Hormonal release only"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Top-down perception is shaped by context, expectation and prior knowledge."
+  },
+  {
+    "id": "u3_t2_q4",
+    "unit": "Unit 3",
+    "topic": "Sensation and Perception",
+    "objectiveCode": "LO-3.13",
+    "text": "Research on culture and perception suggests that perception is:",
+    "options": [
+      "Entirely identical across cultures",
+      "Influenced by cultural experience and context",
+      "Unrelated to learning history",
+      "Unaffected by language"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Perceptual interpretation can vary with cultural learning and context."
+  },
+  {
+    "id": "u3_t3_q1",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.14",
+    "text": "The multi-store model includes which sequence?",
+    "options": [
+      "Sensory -> short-term -> long-term",
+      "Long-term -> sensory -> short-term",
+      "Working -> procedural -> semantic",
+      "Iconic -> episodic -> reflexive"
+    ],
+    "correctIndex": 0,
+    "era": 2,
+    "explanation": "The Atkinson-Shiffrin model proposes sensory, short-term and long-term stores."
+  },
+  {
+    "id": "u3_t3_q2",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.16",
+    "text": "Procedural memory is usually classified as:",
+    "options": [
+      "Explicit semantic memory",
+      "Implicit long-term memory",
+      "Short-term auditory memory",
+      "Iconic sensory memory"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Procedural memory is an implicit memory type for skills."
+  },
+  {
+    "id": "u3_t3_q3",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.17",
+    "text": "The hippocampus is especially important for:",
+    "options": [
+      "Primary visual transduction",
+      "Formation of many explicit memories",
+      "Spinal reflex speed",
+      "Vestibular equilibrium only"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Hippocampal function is central to encoding/consolidating explicit memory."
+  },
+  {
+    "id": "u3_t3_q4",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.20",
+    "text": "Retroactive interference occurs when:",
+    "options": [
+      "Old learning disrupts new learning",
+      "New learning disrupts old learning retrieval",
+      "No memories are encoded",
+      "Recognition is always improved"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Retroactive interference means newer material impairs recall of older material."
+  },
+  {
+    "id": "u3_t3_q5",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.21",
+    "text": "Which strategy best reflects spacing?",
+    "options": [
+      "One long cramming session",
+      "Distributed study sessions over time",
+      "Random guessing only",
+      "Studying only when anxious"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Spaced practice improves retention by revisiting material over intervals."
+  },
+  {
+    "id": "u3_t3_q6",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.21",
+    "text": "The method of loci improves memory by:",
+    "options": [
+      "Reducing attention requirements",
+      "Linking items to imagined spatial locations",
+      "Avoiding retrieval cues",
+      "Suppressing rehearsal"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Method of loci uses spatial imagery cues to enhance recall."
+  },
+  {
+    "id": "u3_t3_q7",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "LO-3.19",
+    "text": "Recognition differs from recall because recognition:",
+    "options": [
+      "Requires no memory store",
+      "Involves identifying previously learned information",
+      "Always has lower accuracy",
+      "Is only implicit"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Recognition presents cues and asks if information was seen before."
+  },
+  {
+    "id": "u3_t3_q8",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "SHE-3.10",
+    "text": "Why are memory findings sometimes open to interpretation?",
+    "options": [
+      "Memory has no biological basis",
+      "Different methods and assumptions can support multiple explanations",
+      "Data are never replicable",
+      "Researchers always agree"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Complex constructs and varied methods can support competing interpretations."
+  },
+  {
+    "id": "u3_t4_q1",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "LO-3.23",
+    "text": "Classical conditioning primarily links:",
+    "options": [
+      "Behaviour to consequences",
+      "Two stimuli so one predicts the other",
+      "Learning to observational modelling only",
+      "Cognition to genetics directly"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Classical conditioning forms stimulus-stimulus associations."
+  },
+  {
+    "id": "u3_t4_q2",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "LO-3.25",
+    "text": "In operant conditioning, reinforcement:",
+    "options": [
+      "Always weakens behaviour",
+      "Increases likelihood of behaviour",
+      "Only works with punishment",
+      "Requires unconscious reflexes"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Reinforcement increases future probability of a behaviour."
+  },
+  {
+    "id": "u3_t4_q3",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "LO-3.26",
+    "text": "Social learning theory emphasises:",
+    "options": [
+      "Learning only through trial and error",
+      "Observational learning and modelling",
+      "Reflexive conditioning only",
+      "No role for cognition"
+    ],
+    "correctIndex": 1,
+    "era": 2,
+    "explanation": "Bandura highlighted modelling and cognitive factors in learning."
+  },
+  {
+    "id": "u3_t4_q4",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "SHE-3.14",
+    "text": "A key ethical issue in Watson and Rayner’s Little Albert study was:",
+    "options": [
+      "Excessive debriefing time",
+      "Inducing fear with limited safeguards",
+      "Overuse of double-blind controls",
+      "Use of fMRI in infants"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "The study involved ethically problematic induction of fear in a child participant."
+  },
+  {
+    "id": "u4_t1_q1",
+    "unit": "Unit 4",
+    "topic": "Social Psychology",
+    "objectiveCode": "LO-4.01",
+    "text": "Primary socialisation is most associated with:",
+    "options": [
+      "Media algorithms",
+      "Family and early caregivers",
+      "Government policy only",
+      "Peer-reviewed journals"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Primary socialisation occurs mainly in early family/caregiver contexts."
+  },
+  {
+    "id": "u4_t1_q2",
+    "unit": "Unit 4",
+    "topic": "Social Psychology",
+    "objectiveCode": "LO-4.03",
+    "text": "Internalisation occurs when a person:",
+    "options": [
+      "Publicly complies but privately disagrees",
+      "Adopts group beliefs as personally valid",
+      "Ignores all social norms",
+      "Acts only under threat"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Internalisation reflects genuine acceptance of group norms/beliefs."
+  },
+  {
+    "id": "u4_t1_q3",
+    "unit": "Unit 4",
+    "topic": "Social Psychology",
+    "objectiveCode": "LO-4.05",
+    "text": "Conformity is best described as behaviour change due to:",
+    "options": [
+      "Direct monetary reinforcement only",
+      "Real or imagined group pressure",
+      "Neurological degeneration",
+      "Classical conditioning alone"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Conformity involves alignment with group expectations."
+  },
+  {
+    "id": "u4_t1_q4",
+    "unit": "Unit 4",
+    "topic": "Social Psychology",
+    "objectiveCode": "LO-4.06",
+    "text": "Milgram’s obedience research showed that:",
+    "options": [
+      "Authority has no effect on behaviour",
+      "Perceived legitimate authority can strongly increase obedience",
+      "Conformity always decreases in labs",
+      "Status never changes behaviour"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Milgram demonstrated substantial obedience under authority pressure."
+  },
+  {
+    "id": "u4_t2_q1",
+    "unit": "Unit 4",
+    "topic": "Interpersonal Processes",
+    "objectiveCode": "LO-4.07",
+    "text": "Latané and Darley’s bystander findings are commonly explained by:",
+    "options": [
+      "Sensory adaptation",
+      "Diffusion of responsibility",
+      "Operant extinction",
+      "Classical generalisation"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Presence of others can diffuse perceived personal responsibility to act."
+  },
+  {
+    "id": "u4_t2_q2",
+    "unit": "Unit 4",
+    "topic": "Interpersonal Processes",
+    "objectiveCode": "LO-4.08",
+    "text": "The reciprocity principle suggests people are more likely to help when:",
+    "options": [
+      "No prior interaction exists",
+      "They have received help or benefit from others",
+      "Costs are always high",
+      "Social norms prohibit helping"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Reciprocity norms motivate returning support/help."
+  },
+  {
+    "id": "u4_t2_q3",
+    "unit": "Unit 4",
+    "topic": "Interpersonal Processes",
+    "objectiveCode": "LO-4.11",
+    "text": "In the General Aggression Model, aggressive behaviour is influenced by:",
+    "options": [
+      "Only biological predisposition",
+      "Person and situational inputs over episodes",
+      "Only media exposure",
+      "Only trait empathy"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "GAM integrates personal and situational factors in aggression pathways."
+  },
+  {
+    "id": "u4_t2_q4",
+    "unit": "Unit 4",
+    "topic": "Interpersonal Processes",
+    "objectiveCode": "LO-4.14",
+    "text": "Which factor is a common social-cognitive origin of attraction?",
+    "options": [
+      "Proximity",
+      "Synaptic pruning",
+      "Pineal secretion",
+      "Auditory masking"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "Proximity increases opportunities for interaction and relationship formation."
+  },
+  {
+    "id": "u4_t3_q1",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "LO-4.16",
+    "text": "The tri-component model includes:",
+    "options": [
+      "Cognition, affect, behaviour",
+      "Memory, arousal, perception",
+      "Trait, state, role",
+      "Nature, nurture, chance"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "Attitudes are often conceptualised as cognitive, affective and behavioural components."
+  },
+  {
+    "id": "u4_t3_q2",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "LO-4.18",
+    "text": "Cognitive dissonance is typically experienced as:",
+    "options": [
+      "Comfort from consistency",
+      "Discomfort from inconsistency between beliefs and behaviour",
+      "A memory deficit only",
+      "A sensory threshold shift"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Dissonance motivates efforts to restore consistency."
+  },
+  {
+    "id": "u4_t3_q3",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "LO-4.20",
+    "text": "The fundamental attribution error is the tendency to:",
+    "options": [
+      "Overestimate situational causes for others",
+      "Overestimate dispositional causes for others",
+      "Ignore dispositional causes in self",
+      "Treat all causes equally"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "People often over-attribute others’ behaviour to personal traits."
+  },
+  {
+    "id": "u4_t3_q4",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "LO-4.24",
+    "text": "Prejudice differs from discrimination because prejudice is:",
+    "options": [
+      "Behaviour while discrimination is attitude",
+      "Attitude while discrimination is behaviour",
+      "Always explicit and behavioural",
+      "Equivalent in all contexts"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Prejudice is an attitude; discrimination is behaviour toward groups."
+  },
+  {
+    "id": "u4_t4_q1",
+    "unit": "Unit 4",
+    "topic": "Cross-Cultural Psychology",
+    "objectiveCode": "LO-4.27",
+    "text": "In psychology, culture refers to shared:",
+    "options": [
+      "Genes only",
+      "Behaviours, beliefs and values",
+      "Neural pathways only",
+      "Diagnostic categories only"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Culture includes shared meanings, values, norms and practices."
+  },
+  {
+    "id": "u4_t4_q2",
+    "unit": "Unit 4",
+    "topic": "Cross-Cultural Psychology",
+    "objectiveCode": "LO-4.28",
+    "text": "Pluralism differs from multiculturalism when:",
+    "options": [
+      "There is no cultural diversity",
+      "A dominant culture is absent",
+      "All groups assimilate fully",
+      "Only one language is permitted"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Pluralism emphasises coexistence without a single dominant culture."
+  },
+  {
+    "id": "u4_t4_q3",
+    "unit": "Unit 4",
+    "topic": "Cross-Cultural Psychology",
+    "objectiveCode": "LO-4.29",
+    "text": "Acculturation stress commonly involves challenges related to:",
+    "options": [
+      "Only sensory adaptation",
+      "Culture shock, identity and social integration",
+      "Purely genetic mismatch",
+      "Only memory capacity"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Immigration and acculturation can create identity, social and adaptation stressors."
+  },
+  {
+    "id": "u4_t4_q4",
+    "unit": "Unit 4",
+    "topic": "Cross-Cultural Psychology",
+    "objectiveCode": "LO-4.31",
+    "text": "According to contact approaches, prejudice is reduced most effectively by contact that is:",
+    "options": [
+      "Brief and competitive",
+      "Sustained, equal-status and cooperative",
+      "Anonymous and online only",
+      "Forced without shared goals"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "Intergroup contact is strongest with sustained equal-status cooperation and shared goals."
+  },
+  {
+    "id": "qcaa_exam_2022_1",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2022-Q1",
+    "text": "Which of the following conditions had the least variability?",
+    "options": [
+      "silent multiple choice test with the silent study condition",
+      "silent multiple choice test with the noisy study condition",
+      "noisy multiple choice test with the silent study condition",
+      "noisy multiple choice test with the noisy study condition"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2022_2",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2022-Q2",
+    "text": "Which of the following conditions resulted in the best student performance?",
+    "options": [
+      "silent short answer test with the silent study condition",
+      "silent short answer test with the noisy study condition",
+      "silent multiple choice test with the silent study condition",
+      "silent multiple choice test with the noisy study condition"
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2022_3",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2022-Q3",
+    "text": "A valid inference that may be drawn from the data is that",
+    "options": [
+      "silent study conditions result in better test performances.",
+      "matching study and test conditions result in higher test scores.",
+      "contrasting study and test conditions result in higher test scores.",
+      "multiple choice tests are a better measure of overall performance."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2022_4",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2022-Q4",
+    "text": "Which brain region is responsible for spatial abilities?",
+    "options": [
+      "prefrontal cortex",
+      "temporal lobe",
+      "hippocampus",
+      "amygdala"
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2022_5",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2022-Q5",
+    "text": "Adolescents often see social media personalities as role models. In this context, social media personalities are",
+    "options": [
+      "attending to and reproducing the behaviours of adolescents.",
+      "vicariously reinforced by the behaviours of adolescents.",
+      "agents of secondary socialisation.",
+      "displaying primary socialisation."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2022_6",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2022-Q6",
+    "text": "The results showed that in the first few weeks of the semester, students reported being most attracted to people they shared accommodation with. However, as the semester progressed, students reported being most attracted to people who held compatible attitudes. Identify the type of attraction experienced by students later in the semester.",
+    "options": [
+      "similarity",
+      "proximity",
+      "familiarity",
+      "reciprocity"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2022_7",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2022-Q7",
+    "text": "The key protein associated with Parkinson’s disease is",
+    "options": [
+      "dipeptide repeat.",
+      "alpha-synuclein.",
+      "beta amyloid.",
+      "tau."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2022_8",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2022-Q8",
+    "text": "Researchers investigating unfriending behaviours on a social media platform found that most people communicated their concerns in an effort to fix issues before ending the relationship. Which stage of Ducks stages of dissolution does this represent?",
+    "options": [
+      "social",
+      "dyadic",
+      "intrapsychic",
+      "grave-dressing"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2022_9",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2022-Q9",
+    "text": "McMillan and Chavis (1986) found that four factors combine to create a sense of community. Along with membership, these factors are",
+    "options": [
+      "influence, investment and shared emotional connection.",
+      "shared emotional connection, spiritual bonds and investment.",
+      "integration and fulfilment of needs, influence and shared emotional connection.",
+      "integration and fulfilment of needs, spiritual bonds and shared emotional connection."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2022_10",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2022-Q10",
+    "text": "Consider two theories. Theory 1 proposes children act as mere observers... passive. Theory 2 proposes children form mental categories... acquire knowledge. Which type of gender role formation theory do these theories represent?",
+    "options": [
+      "Theory 1: Cognitive developmental, Theory 2: Biology-based",
+      "Theory 1: Biology-based, Theory 2: Gender schema-based",
+      "Theory 1: Gender schema-based, Theory 2: Social learning",
+      "Theory 1: Social learning, Theory 2: Cognitive developmental"
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2022_11",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2022-Q11",
+    "text": "Assimilation occurs when",
+    "options": [
+      "there is no dominant culture and diverse religious, ethnic or cultural groups co-exist within a society.",
+      "a minority group’s cultural markers, such as language, tradition and food, are maintained.",
+      "there is a dominant culture and minority groups participate fully in the dominant society.",
+      "a minority group gradually loses all of the markers that set it apart as a separate culture."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2022_12",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2022-Q12",
+    "text": "Discrimination is",
+    "options": [
+      "a preconceived opinion that is not based on reason or experience.",
+      "an unconscious unfavourable belief about a group of people.",
+      "a negative overt thought about members of a cultural group.",
+      "the behavioural manifestation of a prejudicial attitude."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2022_13",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2022-Q13",
+    "text": "Which type of optical illusion involves a two-dimensional figure that people interpret as three-dimensional?",
+    "options": [
+      "Ponzo illusion",
+      "Impossible figure",
+      "Ambiguous figure",
+      "Müller-Lyer illusion"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2022_14",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2022-Q14",
+    "text": "Which image best represents association after conditioning?",
+    "options": [
+      "Dog hears bell.",
+      "Dog sees food and salivates.",
+      "Dog sees food and hears bell, and salivates.",
+      "Dog hears bell and salivates."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2022_15",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2022-Q15",
+    "text": "An implication of the social psychological research conducted by Milgram (1963) is that",
+    "options": [
+      "social pressure can increase obedience.",
+      "obedience increases if a command has authority.",
+      "obedience decreases if commands are given in quick succession.",
+      "the proximity of an authority figure does not influence obedience."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2022_16",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2022-Q16",
+    "text": "Ross (1971) examined reactions to emergency situations in the presence of non-responding adult confederates or non-responding child confederates. Participants responded more quickly in the presence of children. Researchers were investigating",
+    "options": [
+      "cost-benefit analysis and empathy.",
+      "diffusion of responsibility and competence.",
+      "bystander intervention and social responsibility.",
+      "the reciprocity principle and audience inhibition."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2022_17",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2022-Q17",
+    "text": "In an operant conditioning experiment, pigeons were positively reinforced when they pecked a key with its yellow/green light on, but not with red light on. Pigeons only pecked when yellow/green light was on. This is an example of stimulus",
+    "options": [
+      "pairing.",
+      "recovery.",
+      "generalisation.",
+      "discrimination."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2022_18",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2022-Q18",
+    "text": "According to operant conditioning, extinction occurs",
+    "options": [
+      "if reinforcement is discontinued.",
+      "if there is a change in reinforcement.",
+      "over time, even if reinforcement is continued.",
+      "for an equal period of time to that spent learning the behaviour."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2022_19",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2022-Q19",
+    "text": "Participants were asked to select statements expressing how much they favoured one category over another. An example was ‘I strongly prefer young people to old people’. This experiment was investigating",
+    "options": [
+      "discrimination and scapegoating.",
+      "stereotypes and direct experience.",
+      "explicit attitudes and group prejudice.",
+      "implicit attitudes and the prejudiced personality."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2022_20",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2022-Q20",
+    "text": "A comparison of the roles of CC, OC, and SLT in the development and maintenance of phobias suggests that",
+    "options": [
+      "OC and SLT associate a stimulus and a response; CC rewards avoidance",
+      "CC and SLT associate a stimulus and a response; OC rewards avoidance",
+      "OC associates a stimulus and a response; CC and SLT punish avoidance",
+      "CC associates a stimulus and a response; OC and SLT punish avoidance"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2023_1",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2023-Q1",
+    "text": "X indicates neurotransmitters",
+    "options": [
+      "binding to postsynaptic receptor sites.",
+      "reaching the threshold of excitation.",
+      "crossing the synaptic cleft.",
+      "leaving synaptic vesicles."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2023_2",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2023-Q2",
+    "text": "Buss et al. (1990) interviewed participants from 37 cultures and found evidence of universal traits for mate selection. This supports",
+    "options": [
+      "social theories of attraction.",
+      "cultural theories of attraction.",
+      "cognitive theories of attraction.",
+      "biological theories of attraction."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2023_3",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2023-Q3",
+    "text": "Two vertical lines of equal length are shown, with shorter line segments (fins) at the ends. The fins give the illusion that one line is longer. One explanation for this illusion draws on",
+    "options": [
+      "Gestalt principles.",
+      "ambiguous figures.",
+      "monocular depth cues.",
+      "perceptual compromise."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2023_4",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2023-Q4",
+    "text": "An example of discrimination is",
+    "options": [
+      "holding a negative attitude towards people born in a different country.",
+      "avoiding interactions with people from a different race.",
+      "believing that men are better drivers than women.",
+      "thinking that young people are unreliable."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2023_5",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2023-Q5",
+    "text": "Guards in the Stanford prison experiment changed their attitudes and behaviours to align more closely with their perception of a typical prison guard. As a group, the guards had the ability to influence the behaviour of prisoners. In social psychology, these are examples of",
+    "options": [
+      "roles and power.",
+      "internalisation and prejudice.",
+      "compliance and socialisation.",
+      "obedience and discrimination."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2023_6",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2023-Q6",
+    "text": "Japanese guests removing their shoes when they enter a home is an expression of",
+    "options": [
+      "culture.",
+      "pluralism.",
+      "collectivism.",
+      "individualism."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2023_7",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2023-Q7",
+    "text": "Secondary socialisation",
+    "options": [
+      "involves a permanent change in beliefs and attitudes.",
+      "is essential for early physical and mental development.",
+      "conflicts with the norms learnt during primary socialisation.",
+      "does not require in-person interaction with the socialising agent."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2023_8",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2023-Q8",
+    "text": "In classical conditioning, spontaneous recovery refers to",
+    "options": [
+      "producing an extinguished response after re-pairing with the unconditioned stimulus.",
+      "a response being extinguished after being shown with no reinforcement.",
+      "a response to any stimulus that resembles the conditioned stimulus.",
+      "producing an extinguished response after a rest period."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2023_9",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2023-Q9",
+    "text": "Phelps (2005) found that damage to the limbic system reduced the ability to recognise the intensity of fearful expressions. This damage most likely occurred to the",
+    "options": [
+      "primary visual cortex.",
+      "prefrontal cortex.",
+      "amygdala.",
+      "HPA axis."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2023_10",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2023-Q10",
+    "text": "Inui et al. (2010) examined the cortical response to sound. The type of sensory memory being studied is",
+    "options": [
+      "olfactory.",
+      "echoic.",
+      "haptic.",
+      "iconic."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2023_11",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2023-Q11",
+    "text": "When you touch a hot stove, you instinctively pull your hand away. This demonstrates",
+    "options": [
+      "a polysynaptic reflex.",
+      "a monosynaptic reflex.",
+      "an involuntary response from the sympathetic nervous system.",
+      "an involuntary response from the parasympathetic nervous system."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2023_12",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2023-Q12",
+    "text": "Cramton (2002) found that work groups in different locations formed in-groups and out-groups... increased tendency to attribute behaviour of out-group members to their personal qualities. Which two processes does this reflect?",
+    "options": [
+      "prejudice and self-serving bias",
+      "discrimination and confirmation bias",
+      "social identification and situational attributions",
+      "social comparison and the fundamental attribution error"
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2023_13",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2023-Q13",
+    "text": "The expectation that you will help a person who has previously helped you is known as",
+    "options": [
+      "altruism.",
+      "empathy.",
+      "reciprocity.",
+      "cost-benefit analysis."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2023_14",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2023-Q14",
+    "text": "Darley and Latane (1968), faked epileptic seizure. As interpreted by the authors, the results were that increasing group size",
+    "options": [
+      "reduced an individual’s feelings of responsibility and decreased the percentage of participants who sought help.",
+      "increased an individual’s feelings of responsibility and increased the percentage of participants who sought help.",
+      "had no effect on an individual’s feelings of responsibility, resulting in an inconsistent pattern.",
+      "only had an effect in groups larger than three, otherwise unaffected."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2023_15",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2023-Q15",
+    "text": "Which memory technique involves linking new information to existing knowledge to support encoding?",
+    "options": [
+      "maintenance rehearsal",
+      "elaborative rehearsal",
+      "method of loci",
+      "SQ4R"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2023_16",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2023-Q16",
+    "text": "Bargh, Chen and Burrows (1996) investigated relationship between priming with stereotypes and walking speed. A conclusion that can be drawn from this data is that the",
+    "options": [
+      "differences between the variables in the neutral condition are statistically significant.",
+      "differences between the variables in the elderly condition are statistically significant.",
+      "variables in the elderly condition have a strong negative relationship.",
+      "variables in the neutral condition have no relationship."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2023_17",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2023-Q17",
+    "text": "In Watson and Rayner’s (1920) Little Albert experiment, Little Albert’s crying when the rat was later shown is an example of",
+    "options": [
+      "an unconditioned response.",
+      "an unconditioned stimulus.",
+      "a conditioned response.",
+      "a conditioned stimulus."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2023_18",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2023-Q18",
+    "text": "Kutner, Wilkins and Yarrow (1952). Served meal in person but refused table reservation on phone. Restaurants were inconsistent in which component of the tri-component model of attitudes?",
+    "options": [
+      "experience",
+      "behaviour",
+      "cognition",
+      "affect"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2023_19",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2023-Q19",
+    "text": "Groups working together to achieve a shared objective reduces prejudice. This is known as",
+    "options": [
+      "mutual interdependence.",
+      "equal-status contact.",
+      "intergroup contact.",
+      "sustained contact."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2023_20",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2023-Q20",
+    "text": "Cells in the visual cortex that respond only to certain components of a stimulus are known as",
+    "options": [
+      "photoreceptor cone cells.",
+      "photoreceptor rod cells.",
+      "feature detector cells.",
+      "retinal ganglion cells."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_1",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2024-Q1",
+    "text": "Vicarious conditioning",
+    "options": [
+      "happens to a model.",
+      "occurs only in classical conditioning.",
+      "requires the learner to observe a model.",
+      "requires direct experience by the learner."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_2",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2024-Q2",
+    "text": "Injury to the cerebellum is most likely to affect a person’s ability to learn",
+    "options": [
+      "a poem.",
+      "to ride a bicycle.",
+      "the name of a new friend.",
+      "new behaviours in response to rewards."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2024_3",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2024-Q3",
+    "text": "Which option correctly distinguishes between classical conditioning and social learning?",
+    "options": [
+      "In CC the conditioned stimulus is directly experienced by the learner. In SL the conditioned stimulus is experienced by someone observed.",
+      "In CC the conditioned stimulus is associated with the unconditioned stimulus. In SL the conditioned stimulus is modelled.",
+      "In CC the learning is solely behavioural. In SL the learning is solely cognitive.",
+      "In CC the neutral stimulus is paired repeatedly with the conditioned stimulus. In SL the neutral stimulus is followed by a reward."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2024_4",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2024-Q4",
+    "text": "Which lobe of the brain is most responsible for processing auditory information?",
+    "options": [
+      "frontal",
+      "parietal",
+      "occipital",
+      "temporal"
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2024_5",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2024-Q5",
+    "text": "Presbyopia is a common condition in which the lens in the eye hardens over time. Identify the biological influence most commonly related to presbyopia.",
+    "options": [
+      "ageing",
+      "disease",
+      "injuries",
+      "genetics"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2024_6",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2024-Q6",
+    "text": "The reciprocity principle describes the expectation that a person will help",
+    "options": [
+      "those in need.",
+      "if they have the ability.",
+      "those who have helped them.",
+      "others, if they are in a large group of bystanders."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_7",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2024-Q7",
+    "text": "One ethical objection to Milgram’s (1963) study is that the participants",
+    "options": [
+      "caused distress to one another.",
+      "were harmed to enhance learning.",
+      "experienced distress in the role of ‘teacher’.",
+      "were pressured to express views against their own beliefs."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_8",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2024-Q8",
+    "text": "The graph shows the relationship between walking time and the number of elderly primes. Identify the relationship shown.",
+    "options": [
+      "weak positive",
+      "strong positive",
+      "weak negative",
+      "strong negative"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2024_9",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2024-Q9",
+    "text": "What does the general aggression model propose about habitual exposure to violent media, e.g. video games?",
+    "options": [
+      "It increases aggressive behaviour scripts.",
+      "It is the result of an aggressive personality.",
+      "It is caused by aggressive social interactions.",
+      "It causes increased sensitisation to aggression."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2024_10",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2024-Q10",
+    "text": "Following a romantic breakup, social media users were observed to sever online connections with other users who were close to the ex-partner and establish connections with new online social groups. Which of Ducks stages of relationship dissolution does this represent?",
+    "options": [
+      "social",
+      "dyadic",
+      "intrapsychic",
+      "resurrection"
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2024_11",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2024-Q11",
+    "text": "According to McMillan and Chavis (1986), boundaries play an important role in developing which element of a sense of community?",
+    "options": [
+      "influence",
+      "membership",
+      "fulfilment of needs",
+      "shared emotional connection"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2024_12",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2024-Q12",
+    "text": "Voluntary movement is coordinated mainly by the primary",
+    "options": [
+      "somatosensory cortex.",
+      "auditory cortex.",
+      "motor cortex.",
+      "visual cortex."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_13",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2024-Q13",
+    "text": "Luh (1922) investigated the nature of retention under different conditions. Participants recall and recognition of nonsense syllables were tested over a two-day period. What do the results show about retention?",
+    "options": [
+      "It is much higher when memory is cued by presenting previously learned information.",
+      "It falls more quickly when previously learned information is presented.",
+      "It stops changing after one day when memory is not cued.",
+      "It is measured more sensitively by recall than recognition."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2024_14",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2024-Q14",
+    "text": "What difficulty usually results from damage to Wernickes area?",
+    "options": [
+      "integrating sensory information",
+      "producing legible handwriting",
+      "comprehending language",
+      "producing fluent speech"
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_15",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2024-Q15",
+    "text": "Researchers conducted an experiment based on Skinners (1948) approach. On which day did extinction first occur?",
+    "options": [
+      "2",
+      "3",
+      "8",
+      "12"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2024_16",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2024-Q16",
+    "text": "One difference between multiculturalism and pluralism is that multiculturalism",
+    "options": [
+      "has a single dominant culture.",
+      "places a higher value on tolerance.",
+      "does not allow unequal treatment of minorities.",
+      "tends to focus more on the rights of the individual."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2024_17",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2024-Q17",
+    "text": "Chatman and Flynn (2001) found that work groups with greater demographic heterogeneity showed lower in-team cooperation. What was the most likely source of conflict in this study?",
+    "options": [
+      "cultural diversity",
+      "individual differences",
+      "increased contact between individuals",
+      "group norms emphasising cooperation"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2024_18",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2024-Q18",
+    "text": "What did Hudsons (1960) investigation of cultural influences on visual perception find?",
+    "options": [
+      "Formal education improved 3D perception for all subcultures.",
+      "Level of intelligence was the main determinant of 3D perception for all subcultures.",
+      "Ability to perceive 3D information was determined by subculture regardless of education level.",
+      "The main determinant of 3D perception was exposure to printed pictorial material portraying 3D information."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2024_19",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2024-Q19",
+    "text": "A person who believes that smoking is dangerous but continues to smoke may eventually change their beliefs about smoking. This change would most likely be in response to",
+    "options": [
+      "situational attribution.",
+      "cognitive dissonance.",
+      "confirmation bias.",
+      "self-serving bias."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2024_20",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2024-Q20",
+    "text": "Cialdini et al. (2006) investigated the effect of norm-based persuasive messages on theft in a national park. Which type of message was most effective in reducing theft?",
+    "options": [
+      "positively worded instructions about theft",
+      "negatively worded instructions about theft",
+      "positively worded information about theft by past park visitors",
+      "negatively worded information about theft by past park visitors"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_1",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2021-Q1",
+    "text": "What is the mean walking time?",
+    "options": [
+      "8.05 s",
+      "8.12 s",
+      "8.28 s",
+      "9.12 s"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_2",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2021-Q2",
+    "text": "Researchers analysed the results using a Pearson correlation coefficient. The result was r = 0.98. It could be inferred that this demonstrates a",
+    "options": [
+      "weak positive correlation.",
+      "weak negative correlation.",
+      "strong positive correlation.",
+      "strong negative correlation."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2021_3",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2021-Q3",
+    "text": "A conclusion that could be drawn from the analysed result is",
+    "options": [
+      "the number of elderly primes had no effect on walking time.",
+      "the number of elderly primes had little effect on walking time.",
+      "as the number of elderly primes increased, walking time increased.",
+      "as the number of elderly primes increased, walking time decreased."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2021_4",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2021-Q4",
+    "text": "Personal prejudice is",
+    "options": [
+      "blaming a group for the actions of others.",
+      "attitudes held to conform with group views.",
+      "negative thoughts, stereotypes and actions towards others based on race.",
+      "an opinion of another person based on their real or perceived group membership."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2021_5",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2021-Q5",
+    "text": "According to Duck’s stages of dissolution, in the dyadic phase individuals",
+    "options": [
+      "retrospectively make sense of the relationship’s history by developing an account that casts the individual in a favourable light.",
+      "reveal their concerns regarding the relationship to their partner and attempt to redefine the relationship.",
+      "internalise reflections on the state of the relationship generally and the partner specifically.",
+      "recognise that relationships are embedded in social networks."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_6",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2021-Q6",
+    "text": "Self-serving bias is the tendency for people to",
+    "options": [
+      "attribute their own behavioural successes to personal factors that are in their control.",
+      "infer that a person’s behaviour is due to the situation or environment they are in.",
+      "infer that self-serving factors are the cause of an event or behaviour.",
+      "search for approval for what they believe."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2021_7",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2021-Q7",
+    "text": "For classical conditioning, extinction is described as",
+    "options": [
+      "the re-emergence of a previously learnt conditioned response.",
+      "the process in which an organism learns to respond to a restricted range of stimuli.",
+      "the decrease in frequency of a response when the unconditioned stimulus is no longer presented.",
+      "the process in which an organism learns to respond to stimuli that resemble the conditioned stimulus."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2021_8",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2021-Q8",
+    "text": "The hippocampus plays a critical role in",
+    "options": [
+      "encoding long-term memory.",
+      "mathematical, spatial and logical reasoning.",
+      "implicit memory of learnt skills and actions.",
+      "facial recognition and object identification and location."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2021_9",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2021-Q9",
+    "text": "A limitation of the working model of memory is that it",
+    "options": [
+      "provides no role for rehearsal.",
+      "emphasises structure rather than processing.",
+      "does not take into account cross-cultural differences in memory span.",
+      "provides a poor account of developmental differences in memory span."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2021_10",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2021-Q10",
+    "text": "For operant conditioning, stimulus discrimination is described as the",
+    "options": [
+      "spontaneous re-emergence of an operant that had been extinguished.",
+      "tendency to respond to stimuli similar to the stimuli that precede reinforcement.",
+      "process in which the connection between an operant and a reinforcer or punishment is broken.",
+      "ability to differentiate between stimuli and respond only to the original stimulus, not similar stimuli."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2021_11",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2021-Q11",
+    "text": "Superordinate goals reduce prejudice through",
+    "options": [
+      "dependence on one another to meet each person’s goals.",
+      "shared goals that a group or individuals cannot achieve alone or without other groups or individuals.",
+      "prolonged and involved cooperative activity in order to meet goals, rather than a casual and purposeless contact.",
+      "social interaction occurring at the same level in order to meet goals, without obvious differences in power or status."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_12",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2021-Q12",
+    "text": "Robinson and OLeary-Kelly (2017) investigated antisocial behaviour at work. What factor most likely affected the antisocial behaviour in this investigation?",
+    "options": [
+      "social influence",
+      "audience inhibition",
+      "cost–benefit analysis",
+      "diffusion of responsibility"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2021_13",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2021-Q13",
+    "text": "Implicit racism is characterised as negative",
+    "options": [
+      "treatment of people based on race.",
+      "stereotypes about members of another racial group.",
+      "overt actions towards members of a particular cultural group.",
+      "unconscious actions towards members of another racial group."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2021_14",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2021-Q14",
+    "text": "This image represents",
+    "options": [
+      "the Ponzo illusion.",
+      "an impossible figure.",
+      "an ambiguous figure.",
+      "the Müller-Lyer illusion."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2021_15",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2021-Q15",
+    "text": "Recognition involves",
+    "options": [
+      "identifying previously studied information.",
+      "re-learning previously studied information.",
+      "manipulating information that has been previously learnt and tested.",
+      "recalling information from memory with some cues or hints for assistance."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2021_16",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2021-Q16",
+    "text": "Kohlenberg and Tsai (1994) helped people recognise subtle triggers. One partner was responding to a particular tone in the other partner’s voice regardless of their words. This is an example of",
+    "options": [
+      "positive punishment.",
+      "negative reinforcement.",
+      "stimulus generalisation.",
+      "stimulus discrimination."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2021_17",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2021-Q17",
+    "text": "Darley and Latane’s (1968) model of bystander intervention would attribute these results to",
+    "options": [
+      "a loss of social identity and inhibition.",
+      "the tendency for an individual to reduce their effort in a group.",
+      "the presence of others reducing the likelihood of prosocial behaviour.",
+      "individuals changing their behaviour as a result of real or implied pressure from others."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2021_18",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2021-Q18",
+    "text": "Associating people’s behaviour with their internal characteristics is",
+    "options": [
+      "situational bias.",
+      "correspondence bias.",
+      "situational attribution.",
+      "dispositional attribution."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2021_19",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2021-Q19",
+    "text": "Which statement does not describe the general aggression model?",
+    "options": [
+      "It examines how blocking a person’s attainment of a goal can lead to aggression.",
+      "It proposes that aggression is an innate biological drive and we must adapt in order to control it.",
+      "It examines how person and situation input variables influence aggression through the cognitions, emotions and arousal they generate.",
+      "It proposes that aggression is directly learnt and aggressive acts carried out by a model will be internalised by an individual and reproduced."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_20",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2021-Q20",
+    "text": "Social learning theories of gender development assume that",
+    "options": [
+      "cognitive processes play a key role in the development of gender identity and gender roles.",
+      "gender roles are attained through the observation of same-sex models, direct tuition and modelling.",
+      "gender schemas develop through role identity and children’s ability to label themselves as boys or girls.",
+      "humans are born with innate predispositions to act and feel feminine or masculine due to the presence or absence of prenatal androgens."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_21",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2021-Q21",
+    "text": "According to McMillan and Chavis (1986), the feeling that members’ desires will be met by the resources received through their involvement in a group is described as",
+    "options": [
+      "influence.",
+      "membership.",
+      "shared emotional connection.",
+      "integration and fulfilment of needs."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2021_22",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2021-Q22",
+    "text": "Competence can lead to prosocial behaviour as a person",
+    "options": [
+      "believes they have the skills and abilities required to solve the problem.",
+      "has the capacity to understand another person’s experiences, both cognitively and emotionally.",
+      "has relatively extended emotional states that do not shift attention or disrupt ongoing activities.",
+      "behaves in a way that helps another person with no apparent gain, or with potential cost, to oneself."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2021_23",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2021-Q23",
+    "text": "Which regions of the brain contribute to coordination, precision and accurate timing of voluntary muscle movement?",
+    "options": [
+      "cerebrum and forebrain",
+      "basal ganglia and cerebellum",
+      "amygdala and prefrontal cortex",
+      "frontal lobe and Geschwind’s territory"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2021_24",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2021-Q24",
+    "text": "What is the primary excitatory neurotransmitter in the brain responsible for the fast transmission of neural messages?",
+    "options": [
+      "serotonin",
+      "dopamine",
+      "glutamate",
+      "gamma-aminobutyric acid"
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2021_25",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2021-Q25",
+    "text": "A symptom of Alzheimer’s disease is",
+    "options": [
+      "bradykinesia.",
+      "rigid muscles.",
+      "disorientation.",
+      "impaired posture."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_1",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q1",
+    "text": "The structure of the central nervous system contains the",
+    "options": [
+      "brain and spinal cord only.",
+      "somatic nervous system and brain only.",
+      "autonomic and somatic nervous systems only.",
+      "spinal cord and autonomic nervous system only."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_2",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q2",
+    "text": "Which of the following is an inhibitory neurotransmitter located in the brain?",
+    "options": [
+      "serotonin",
+      "dopamine",
+      "glutamate",
+      "gamma-aminobutyric acid"
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2020_3",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2020-Q3",
+    "text": "Explicit attitudes are",
+    "options": [
+      "a person's conscious views towards people, objects or concepts.",
+      "learned ideas we hold about ourselves, others, objects and experiences.",
+      "positive and negative evaluations that are not accessible to our conscious awareness.",
+      "oversimplified images of people who belong to a particular group, causing them to appear more similar than they are."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_4",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q4",
+    "text": "Which process of neurotransmission is represented by this image?",
+    "options": [
+      "action potential",
+      "graded potential",
+      "resting potential",
+      "event-related potential"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_5",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2020-Q5",
+    "text": "An investigation by Minard (1952) found that below ground, 80% of white miners were friendly towards black miners, whereas above ground this dropped to 20%. The behaviour of the miners above ground demonstrates",
+    "options": [
+      "cognitive dissonance.",
+      "discrimination.",
+      "stereotyping.",
+      "prejudice."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_6",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2020-Q6",
+    "text": "Experiments by Tajfel (1970) demonstrated that dividing participants into arbitrary groups produces in-group favouritism. Which stage of social identity theory do these experiments demonstrate?",
+    "options": [
+      "social categorisation",
+      "social identification",
+      "social comparison",
+      "social evaluation"
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_7",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q7",
+    "text": "The cerebellum plays a critical role in",
+    "options": [
+      "comprehending language and forming meaningful sentences.",
+      "controlling muscles responsible for the production of articulate speech.",
+      "coordinating muscle movements, and maintaining posture and balance.",
+      "regulating emotional balance, resulting in disconnected brain activities."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_8",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2020-Q8",
+    "text": "In the 1920 Little Albert experiment, Watson taught the child to fear rats by associating them with an unpleasant noise. Little Albert’s response of crying and trembling when the rat was presented is",
+    "options": [
+      "a reflexive response.",
+      "a modelled response.",
+      "a conditioned response.",
+      "an unconditioned response."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_9",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2020-Q9",
+    "text": "An aversive or unpleasant stimulus that strengthens behaviour by its removal is known as",
+    "options": [
+      "positive punishment.",
+      "negative punishment.",
+      "positive reinforcement.",
+      "negative reinforcement."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2020_10",
+    "unit": "Unit 3",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2020-Q10",
+    "text": "Researchers showed toddlers their mothers being exposed to a rubber snake. The results indicated that when presented with the rubber snake, toddlers tended to react in a similar way to their mothers. The investigation demonstrates modelling because the toddlers",
+    "options": [
+      "tend to generalise their behaviour to all snakes.",
+      "observed the consequences of their mother's behaviour.",
+      "learned to reproduce the behaviours exhibited by the mothers.",
+      "associated the snake with an emotional reaction, creating a learned fear response."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_11",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2020-Q11",
+    "text": "The type of social influence in which a person acts in the same way as the group, although they may not agree with everything the majority does, is known as",
+    "options": [
+      "obedience.",
+      "compliance.",
+      "identification.",
+      "internalisation."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_12",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2020-Q12",
+    "text": "Primary socialisation occurs",
+    "options": [
+      "mainly outside the home environment.",
+      "mainly during adolescence and into adulthood.",
+      "when a child learns appropriate attitudes, values and actions from family members.",
+      "when a child learns appropriate behaviours as a member of a small group within a larger society."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_13",
+    "unit": "Unit 4",
+    "topic": "Social psychology",
+    "objectiveCode": "EXAM-2020-Q13",
+    "text": "In the experiment by Haney, Banks and Zimbardo (1973), the guards had greater power than the prisoners. The difference in power was because of the",
+    "options": [
+      "authority of the experimenter.",
+      "personalities of the participants.",
+      "social roles of the participants and the social environment of the prison.",
+      "ability of the prisoners to withdraw from the experiment at their leisure."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_14",
+    "unit": "Unit 4",
+    "topic": "Interpersonal processes",
+    "objectiveCode": "EXAM-2020-Q14",
+    "text": "Aronson and Worchel (1966) led participants to believe that the person with whom they had interacted either liked them or disliked them. The results indicated that 'liking' had a significant effect on the participants' feelings for the other person. Which origin of attraction do the results of this investigation support?",
+    "options": [
+      "proximity",
+      "similarity",
+      "familiarity",
+      "reciprocity"
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2020_15",
+    "unit": "Unit 4",
+    "topic": "Learning",
+    "objectiveCode": "EXAM-2020-Q15",
+    "text": "Advertising can influence aggression by using techniques taken from classical conditioning, whereby consumers learn",
+    "options": [
+      "to identify with certain characters.",
+      "the consequences of aggressive behaviour.",
+      "to associate two previously unrelated stimuli.",
+      "to attend to, retain and reproduce certain behaviours."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_16",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q16",
+    "text": "Which language processing region of the brain has been damaged if a person has difficulty speaking and putting together grammatical sentences, but remains able to comprehend language?",
+    "options": [
+      "Broca's area",
+      "Wernicke's area",
+      "Parkinson's territory",
+      "Geschwind's territory"
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_17",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q17",
+    "text": "Feinstein et al. (2010) conducted an investigation on a human patient, SM, who had a pre-existing brain lesion and was unable to experience fear. In what part of the brain did SM most likely have a lesion?",
+    "options": [
+      "cerebrum",
+      "amygdala",
+      "cerebellum",
+      "primary motor cortex"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_18",
+    "unit": "Unit 3",
+    "topic": "Localisation of function in the brain",
+    "objectiveCode": "EXAM-2020-Q18",
+    "text": "Acetylcholine is involved in which of the following psychological functions?",
+    "options": [
+      "pleasure and reward",
+      "learning and memory",
+      "sleep and emotional arousal",
+      "articulation and comprehension of speech"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_19",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2020-Q19",
+    "text": "Which of the following statements best describes semantic memory?",
+    "options": [
+      "memory of learnt skills and actions",
+      "memory of general world knowledge or facts",
+      "memory drawn from objects and places experienced",
+      "memory drawn from events and the people associated"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_20",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2020-Q20",
+    "text": "Tulving and Pearlstone (1966) asked participants to learn lists of words. Participants in the group not given category names used recall, as it involves",
+    "options": [
+      "retrieving stored information using few or no cues for assistance.",
+      "identifying previously studied information from a list or group of alternatives.",
+      "grouping separate items in order to increase the capacity of short-term memory.",
+      "learning information that has been previously learnt and stored in long-term memory."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_21",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2020-Q21",
+    "text": "Cole (2013) asked participants to estimate the distance to a target location. Researchers had measured the waist-to-hip ratios of participants and manipulated their motivational states. Which of the following biological influences on visual perception best describes this study with regards to distance perception?",
+    "options": [
+      "ageing",
+      "genetics",
+      "cultural skills",
+      "psychological make-up"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_22",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2020-Q22",
+    "text": "The Ames room illusion demonstrates the fallibility of visual perception as it causes the observer to",
+    "options": [
+      "misapply shape constancy but maintain size constancy.",
+      "misapply size constancy but maintain shape constancy.",
+      "misapply size constancy but maintain linear perspective cues.",
+      "misapply shape constancy but maintain linear perspective cues."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_23",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2020-Q23",
+    "text": "The components of the tri-component model are known as affective, behavioural and",
+    "options": [
+      "active.",
+      "physical.",
+      "cognitive.",
+      "emotional."
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_24",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2020-Q24",
+    "text": "Blaming a person or group for the actions of others or for conditions not of their making is known as",
+    "options": [
+      "scapegoating.",
+      "group prejudice.",
+      "direct experience.",
+      "personal discrimination."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_25",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2020-Q25",
+    "text": "Conversational distance refers to how close people stand to each other when talking and is related to the idea of intimate space. Conversational distance is one measure that characterises differences in",
+    "options": [
+      "accommodation.",
+      "assimilation.",
+      "pluralism.",
+      "culture."
+    ],
+    "correctIndex": 3,
+    "era": 3,
+    "explanation": "QCAA exam key: option D."
+  },
+  {
+    "id": "qcaa_exam_2020_26",
+    "unit": "Unit 4",
+    "topic": "Attitudes",
+    "objectiveCode": "EXAM-2020-Q26",
+    "text": "Explicit racism is characterised by",
+    "options": [
+      "the unequal treatment of some people who should have the same rights as others.",
+      "any speech or behaviour that demonstrates a conscious awareness of prejudicial attitudes.",
+      "schemas and qualities ascribed to a group of people based on qualities such as ethnicity or gender.",
+      "unconscious biases, expectations or tendencies that exist within an individual, regardless of ill will or any self-aware prejudices."
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_27",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2020-Q27",
+    "text": "Select the row in the table that best describes the differences between pluralism and multiculturalism.",
+    "options": [
+      "Pluralism: Many subcultures within a dominant culture. Multiculturalism: Lack of a dominant culture",
+      "Pluralism: Lack of a dominant culture. Multiculturalism: Several dominant cultures",
+      "Pluralism: Several dominant cultures. Multiculturalism: No subcultures",
+      "Pluralism: No subcultures. Multiculturalism: Many subcultures within a dominant culture"
+    ],
+    "correctIndex": 1,
+    "era": 3,
+    "explanation": "QCAA exam key: option B."
+  },
+  {
+    "id": "qcaa_exam_2020_28",
+    "unit": "Unit 4",
+    "topic": "Cross-cultural psychology",
+    "objectiveCode": "EXAM-2020-Q28",
+    "text": "Which of the following best describes culture shock?",
+    "options": [
+      "absorption into the dominant culture and abandonment of the traditional culture",
+      "shared goals that groups or individuals cannot achieve alone or without the other person or group",
+      "feelings of disorientation and anxiety that occur as people from one culture encounter and adapt to another culture",
+      "shared rules that govern the behaviour of a group of people and enable members of that group to co-exist and survive"
+    ],
+    "correctIndex": 2,
+    "era": 3,
+    "explanation": "QCAA exam key: option C."
+  },
+  {
+    "id": "qcaa_exam_2020_29",
+    "unit": "Unit 3",
+    "topic": "Memory",
+    "objectiveCode": "EXAM-2020-Q29",
+    "text": "An investigation by Wixted (1991) allowed participants to rehearse words up until the moment of recall. The strategy most likely used by participants in the investigation to improve their memory was",
+    "options": [
+      "maintenance rehearsal.",
+      "elaborative rehearsal.",
+      "method of loci.",
+      "SQ4R method."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  },
+  {
+    "id": "qcaa_exam_2020_30",
+    "unit": "Unit 3",
+    "topic": "Visual perception",
+    "objectiveCode": "EXAM-2020-Q30",
+    "text": "The investigation by Deregowski (1972) found that one group of participants preferred split-type drawings similar to image A, rather than perspective drawings similar to image B. This preference was most likely due to",
+    "options": [
+      "culture.",
+      "depth cues.",
+      "motivation.",
+      "size constancy."
+    ],
+    "correctIndex": 0,
+    "era": 3,
+    "explanation": "QCAA exam key: option A."
+  }
+]
