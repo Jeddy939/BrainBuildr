@@ -183,6 +183,16 @@ const regions: RegionDiagram[] = [
   }
 ];
 
+const neuroLinkReplacementOrder: RegionName[] = [
+  RegionName.Brainstem,
+  RegionName.Cerebellum,
+  RegionName.Temporal,
+  RegionName.Limbic,
+  RegionName.Parietal,
+  RegionName.Occipital,
+  RegionName.Frontal
+];
+
 const getOrbitPoint = (centerX: number, centerY: number, radius: number, index: number, total: number, phase = 0) => {
   const angle = ((Math.PI * 2) / Math.max(1, total)) * index + phase;
   return {
@@ -225,6 +235,13 @@ export default function BrainViz({
   const neuroLinkOffsetX = 500 * (1 - neuroLinkBrainScale);
   const neuroLinkOffsetY = 360 * (1 - neuroLinkBrainScale);
   const nodePulseDuration = clamp(2.8 - (chipScale - 1), 1.4, 2.8);
+  const getRegionReplacementProgress = (regionId: RegionName) => {
+    const phaseStep = 1 / neuroLinkReplacementOrder.length;
+    const orderIndex = neuroLinkReplacementOrder.indexOf(regionId);
+    const start = orderIndex * phaseStep;
+    const localProgress = (neuroLinkReplacementProgress - start) / phaseStep;
+    return clamp(localProgress, 0, 1);
+  };
 
   return (
     <div className="relative h-full w-full overflow-hidden select-none pointer-events-none">
@@ -388,6 +405,12 @@ export default function BrainViz({
               <stop offset="66%" stopColor="rgba(34,211,238,0.08)" />
               <stop offset="100%" stopColor="rgba(10,13,19,0)" />
             </radialGradient>
+            <linearGradient id="neurolink-metal-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#dbeafe" />
+              <stop offset="34%" stopColor="#8aa2bc" />
+              <stop offset="52%" stopColor="#f1f5f9" />
+              <stop offset="100%" stopColor="#475569" />
+            </linearGradient>
             <clipPath id="neurolink-brain-clip">
               <path d={cerebrumOutline} />
               <path d={cerebellumOutline} />
@@ -428,23 +451,45 @@ export default function BrainViz({
               {regions.map((region) => {
                 const unlocked = unlockedRegions[region.id];
                 const baseFill = unlocked ? region.color : '#39475b';
+                const regionReplacementProgress = getRegionReplacementProgress(region.id);
+                const biologicalRegionOpacity = biologicalLayerOpacity * (1 - (regionReplacementProgress * 0.75));
+                const digitalRegionOpacity = clamp((digitalLayerOpacity * 0.35) + (regionReplacementProgress * 0.9), 0.2, 1);
+                const mechanicalOpacity = clamp(-0.2 + (regionReplacementProgress * 1.15), 0, 1);
+                const traceOpacity = clamp(-0.1 + (regionReplacementProgress * 1.2), 0, 1);
                 return (
                   <g key={`neurolink-${region.id}`}>
                     <path
                       d={region.path}
                       fill={baseFill}
-                      opacity={biologicalLayerOpacity * (unlocked ? 1 : 0.75)}
+                      opacity={biologicalRegionOpacity * (unlocked ? 1 : 0.78)}
                       stroke="#0b0d12"
                       strokeWidth="4"
                       strokeLinejoin="round"
                     />
                     <path
                       d={region.path}
-                      fill="#091222"
-                      opacity={unlocked ? digitalLayerOpacity : digitalLayerOpacity * 0.55}
+                      fill="url(#neurolink-metal-sheen)"
+                      opacity={unlocked ? digitalRegionOpacity : digitalRegionOpacity * 0.62}
                       stroke="rgba(56,189,248,0.24)"
                       strokeWidth="1.4"
                       strokeLinejoin="round"
+                    />
+                    <path
+                      d={region.path}
+                      fill="url(#digital-grid-pattern)"
+                      opacity={mechanicalOpacity}
+                      stroke="rgba(148,163,184,0.4)"
+                      strokeWidth="0.6"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d={region.path}
+                      fill="none"
+                      stroke="rgba(56,189,248,0.65)"
+                      strokeWidth="1"
+                      strokeDasharray="6 11"
+                      strokeLinecap="round"
+                      opacity={traceOpacity}
                     />
                     {region.sulci.map((line, index) => (
                       <path
@@ -454,9 +499,15 @@ export default function BrainViz({
                         strokeWidth={index % 3 === 0 ? 2.2 : 1.7}
                         fill="none"
                         strokeLinecap="round"
-                        opacity={0.38 + (digitalLayerOpacity * 0.55)}
+                        opacity={clamp(0.25 + (digitalLayerOpacity * 0.35) + (regionReplacementProgress * 0.45), 0.25, 1)}
                       />
                     ))}
+                    {regionReplacementProgress > 0.3 && (
+                      <g opacity={mechanicalOpacity}>
+                        <circle cx={region.dot[0]} cy={region.dot[1]} r={3.8} fill="#e2e8f0" stroke="#0f172a" strokeWidth="1" />
+                        <circle cx={region.dot[0]} cy={region.dot[1]} r={1.5} fill="#22d3ee" />
+                      </g>
+                    )}
                   </g>
                 );
               })}
